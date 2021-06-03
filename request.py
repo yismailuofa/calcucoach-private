@@ -1,5 +1,5 @@
 '''
-generate a request based on user inputs
+
 
 1. What is your gender?
 2. What is your age? >50 do timid workouts
@@ -16,7 +16,10 @@ samplePayload = {
     workoutDays: 4
 }
 '''
-def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int):
+def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int) -> dict:
+    '''
+    generate a request based on user inputs
+    '''
     request = {
         "chestFactor": 0.5,
         "tricepFactor": 0.5,
@@ -37,5 +40,15 @@ def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int):
     else:
         request["legFactor"] += 0.2
         request["cardioFactor"] += 0.2
+
+    if age > 50:
+        pass
+
+    if workoutStyle == 1:
+        pass
+    elif workoutStyle == 2:
+        pass
+    else:
+        pass
 
     return request
