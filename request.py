@@ -24,7 +24,9 @@ def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int):
         "legFactor": 0.5,
         "backFactor": 0.5,
         "cardioFactor": 0.5,
-        "shoulderFactor": 0.5
+        "shoulderFactor": 0.5,
+        "workoutDays": workoutDays,
+        "workoutStyle": workoutStyle
     }
 
     if gender == "Male":
@@ -32,10 +34,8 @@ def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int):
         request["bicepFactor"] += 0.2
         request["backFactor"] += 0.2
         request["shoulderFactor"] += 0.2
-
     else:
         request["legFactor"] += 0.2
         request["cardioFactor"] += 0.2
-
 
     return request

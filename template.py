@@ -9,5 +9,6 @@ sampleRequest = {
     backFactor: 0.6,
     cardioFactor: 0.8,
     shoulderFactor: 0.3,
+    workoutDays: 3
 }
 '''
