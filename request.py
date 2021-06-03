@@ -1,6 +1,4 @@
 '''
-
-
 1. What is your gender?
 2. What is your age? >50 do timid workouts
 3. What is your workout style?
