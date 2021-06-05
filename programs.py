@@ -16,7 +16,8 @@
 programs = {
     'malePrograms3': {
         '1': {
-            'Monday': [],
+            'Monday': [
+            ],
             'Wednesday': [],
             'Friday': []
         },
