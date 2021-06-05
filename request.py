@@ -1,52 +1,27 @@
-'''
-1. What is your gender?
-2. What is your age? >50 do timid workouts
-3. What is your workout style?
-    1. Mass: Bulking - Jacked
-    2. Tone: Cutting - Lean - Toning
-   	3. Athletics: Stamina - Cardio - Sports - Athlete
-4. How many days do you want to workout a week 3 , 4 , 5 ? 
+from arnie import generateProgram
 
-samplePayload = {
-    gender: "Male",
-    age: 42,
-    workoutStyle: 1,
-    workoutDays: 4
-}
-'''
-def generateRequest(gender: str, age: int, workoutStyle: int, workoutDays: int) -> dict:
+
+def generateResponse(payload: dict) -> dict:
     '''
-    generate a request based on user inputs
-    '''
-    request = {
-        "chestFactor": 0.5,
-        "tricepFactor": 0.5,
-        "bicepFactor": 0.5,
-        "legFactor": 0.5,
-        "backFactor": 0.5,
-        "cardioFactor": 0.5,
-        "shoulderFactor": 0.5,
-        "workoutDays": workoutDays,
-        "workoutStyle": workoutStyle
+    generate a response based on user payload
+
+    samplePayload = {
+        'gender': 'male',
+        'workoutStyle': '1',
+        'workoutDays': '4'
     }
+    '''
+    gender = payload.get('gender')
+    workoutStyle = payload.get('workoutStyle')
+    workoutDays = payload.get('workoutDays')
 
-    if gender == "Male":
-        request["chestFactor"] += 0.2
-        request["bicepFactor"] += 0.2
-        request["backFactor"] += 0.2
-        request["shoulderFactor"] += 0.2
-    else:
-        request["legFactor"] += 0.2
-        request["cardioFactor"] += 0.2
+    if gender is None:
+        gender = 'Male'
 
-    if age > 50:
-        pass
+    if workoutStyle is None:
+        workoutStyle = '6'
 
-    if workoutStyle == 1:
-        pass
-    elif workoutStyle == 2:
-        pass
-    else:
-        pass
+    if workoutDays is None:
+        workoutDays = '3'
 
-    return request
+    return generateProgram(gender=gender, workoutStyle=workoutStyle, workoutDays=workoutDays)
