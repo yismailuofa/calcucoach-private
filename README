@@ -1,7 +1,7 @@
-calcucoach. free personal training. curated workouts.
+motto:
+    calcucoach. free personal training. curated workouts.
 
-1. What is your gender?
-2. What is your workout style?
+styles:
     1. Toning: Uncover the muscle beneath.
     2. Fat Burner: Burn fat quickly and easily.
     3. Beach Body: Look good on and off the beach.
@@ -15,6 +15,11 @@ calcucoach. free personal training. curated workouts.
     9. Endurance: Enhance the body and the mind.
     10. Hollywood: Train like the celebrities with curated workouts.
 
-3. How many days do you want to workout a week 3 , 4 , 5 ?
+questions:
+    1. What is your gender?
+    2. What is your workout style?
+    3. How many days do you want to workout a week 3 , 4 , 5 ?
 
-todo: add videos
+todo: 
+    1. Add videos
+    2. Workout special?

@@ -3,7 +3,7 @@
 2. Fat Burner: Burn fat quickly and easily.
 3. Beach Body: Look good on and off the beach.
 4. Gender:
-    Male-> Beast mode: You will go HARD. Not for the light-hearted.
+    Male-> Beast Mode: You will go HARD. Not for the light-hearted.
     Female-> Hourglass: Get the hourglass figure you deserve. 
 5. Athlete: Get conditioned and reach the top of your game.  
 6. All Around: A healthy balance of all workouts.
@@ -44,13 +44,25 @@ programs = {
         },
         '2': {
             'Monday': [
-                {'name': 'Treadmill', 'freq': '15 min'},
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
+                {'name': 'Burpees', 'freq': '3 x 10'},
+                {'name': 'Dumbell Chest Flyes', 'freq': '3 x 10'},
+                {'name': 'Dumbell Shoulder Flyes', 'freq': '3 x 10'},
+                {'name': 'Dumbell Overhead Tricep Extension', 'freq': '3 x 10'},
             ],
             'Wednesday': [
-                {'name': 'Treadmill', 'freq': '30 min'},
+                {'name': 'Exercise Bike', 'freq': '15 min'},
+                {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
+                {'name': 'Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Dumbell Bicep Curl', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},
             ],
             'Friday': [
-                {'name': 'Treadmill', 'freq': '15 min'},
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
+                {'name': 'Stair Climber', 'freq': '3 x 45 secs'},
+                {'name': 'Dumbell Lunges', 'freq': '3 x 10'},
+                {'name': 'Bicycle Crunches', 'freq': '3 x 15'},
+                {'name': 'Russian Twists', 'freq': '3 x 15'},
             ]            
         },
         '3': {
