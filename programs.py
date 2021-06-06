@@ -13,39 +13,38 @@
 10. Hollywood: Train like the celebrities with curated workouts.
 
 3 days: Push Pull Legs
-4 days: Upper Lower Upper Lower
-5 days: Chest Back Shoulder/Traps Biceps/Triceps Legs/Abs
+4 days: Chest/Triceps Back/Biceps Shoulders/Trap Legs/Abs
+5 days: Push Pull Push Pull Legs
 '''
 
 programs = {
     'malePrograms3': { 
         '1': {
             'Monday': [
-                {'name': 'Dumbell Bench Press', 'freq': '3 x 10'},
-                {'name': 'Cable Chest Flyes', 'freq': '2 x 15'},
-                {'name': 'Arnold Dumbell Press', 'freq': '3 x 10'},
-                {'name': 'Cable Lateral Raise', 'freq': '3 x 10'},
+                {'name': 'Dumbell Bench Press', 'freq': '3 x 12'},
+                {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
+                {'name': 'Arnold Dumbell Press', 'freq': '3 x 12'},
+                {'name': 'Cable Lateral Raise', 'freq': '3 x 12'},
                 {'name': 'Tricep Dips', 'freq': '3 x 8'},
             ],
             'Wednesday': [
-                {'name': 'Wide Grip Pullup', 'freq': '3 x 5'},
-                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
-                {'name': 'Face Pull', 'freq': '2 x 15'},
+                {'name': 'Wide Grip Pullup', 'freq': '3 x 8'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 12'},
+                {'name': 'Face Pull', 'freq': '3 x 15'},
                 {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
                 {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},                
             ],
             'Friday': [
-                {'name': 'Barbell Squat', 'freq': '3 x 8'},
-                {'name': 'Machine Leg Press', 'freq': '3 x 10'}, 
+                {'name': 'Barbell Squat', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
                 {'name': 'Exercise Bike', 'freq': '15 min'},
-                {'name': 'Weighted Situps', 'freq': '3 x 10'},
+                {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
                 {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},                              
             ]
         },
         '2': {
             'Monday': [
                 {'name': 'Treadmill', 'freq': '15 min'},
-                {'name': '', 'freq': '3 x 10'},
             ],
             'Wednesday': [
                 {'name': 'Treadmill', 'freq': '30 min'},
@@ -99,11 +98,33 @@ programs = {
     'malePrograms4': {
         '1': {
             'Monday': [
-                
+                {'name': 'Dumbell Bench Press', 'freq': '3 x 12'},
+                {'name': 'Incline Dumbell Bench Press', 'freq': '3 x 12'},
+                {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
+                {'name': 'Barbell Skullcrushers', 'freq': '3 x 12'},
+                {'name': 'Tricep Dips', 'freq': '3 x 8'},                
             ],
-            'Tuesday': [],
-            'Thursday': [],
-            'Friday': []              
+            'Tuesday': [
+                {'name': 'Wide Grip Pullup', 'freq': '3 x 8'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 12'},
+                {'name': 'Face Pull', 'freq': '3 x 15'},
+                {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
+                {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},  
+            ],
+            'Thursday': [
+                {'name': 'Arnold Dumbell Press', 'freq': '3 x 12'},
+                {'name': 'Cable Lateral Raise', 'freq': '3 x 12'},
+                {'name': 'Reverse Pec Deck', 'freq': '3 x 12'},
+                {'name': 'Dumbell Shrugs', 'freq': '3 x 12'},
+                {'name': 'Farmers Walk', 'freq': '50 Steps'},
+            ],
+            'Friday': [
+                {'name': 'Barbell Squat', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
+                {'name': 'Exercise Bike', 'freq': '15 min'},
+                {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},   
+            ]              
         },
         '2': {
             'Monday': [],
@@ -163,11 +184,41 @@ programs = {
 
     'malePrograms5': {
         '1': {
-            'Monday': [],
-            'Tuesday': [],
-            'Wednesday': [],
-            'Thursday': [],
-            'Friday': []              
+            'Monday': [
+                {'name': 'Dumbell Bench Press', 'freq': '3 x 12'},
+                {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
+                {'name': 'Arnold Dumbell Press', 'freq': '3 x 12'},
+                {'name': 'Cable Lateral Raise', 'freq': '3 x 12'},
+                {'name': 'Tricep Dips', 'freq': '3 x 8'},                
+            ],
+            'Tuesday': [
+                {'name': 'Wide Grip Pullup', 'freq': '3 x 8'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 12'},
+                {'name': 'Face Pull', 'freq': '3 x 15'},
+                {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
+                {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},                    
+            ],
+            'Wednesday': [
+                {'name': 'Incline Dumbell Bench Press', 'freq': '3 x 12'},
+                {'name': 'Dumbell Chest Flyes', 'freq': '3 x 12'},
+                {'name': 'Shoulder Dumbell Press', 'freq': '3 x 12'},
+                {'name': 'Dumbell Lateral Raise', 'freq': '3 x 12'},
+                {'name': 'Tricep Pushdown', 'freq': '3 x 12'},                      
+            ],
+            'Thursday': [
+                {'name': 'Chinups', 'freq': '3 x 8'},
+                {'name': 'Seated Machine Row', 'freq': '3 x 12'},
+                {'name': 'Barbell Upright Row', 'freq': '3 x 12'},
+                {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},                 
+            ],
+            'Friday': [
+                {'name': 'Barbell Squat', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
+                {'name': 'Exercise Bike', 'freq': '15 min'},
+                {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},                      
+            ]              
         },
         '2': {
             'Monday': [],
@@ -423,6 +474,3 @@ programs = {
         }       
     }
 }
-
-import json
-print(json.dumps(programs))
