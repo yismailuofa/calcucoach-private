@@ -117,7 +117,7 @@ programs = {
                 {'name': 'Dumbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbell Front Lateral Raise', 'freq': '3 x 10'},
                 {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Dumbell Overhead Tricep Extension', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
             ],
             'Wednesday': [
                 {'name': 'Bent Over Dumbell Row', 'freq': '3 x 12'},
@@ -135,9 +135,27 @@ programs = {
             ]            
         },    
         '6': {
-            'Monday': [],
-            'Wednesday': [],
-            'Friday': []            
+            'Monday': [
+                {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
+                {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Chest Flyes', 'freq': '3 x 10'},
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+            ],
+            'Wednesday': [
+                {'name': 'Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
+                {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
+                {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},                
+            ],
+            'Friday': [
+                {'name': 'Barbell Squat', 'freq': '3 x 8'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
+                {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
+                {'name': 'Calf Raise', 'freq': '3 x 15'},
+            ]            
         },
         '7': {
             'Monday': [],
@@ -288,7 +306,7 @@ programs = {
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 10'},
                 {'name': 'Dumbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Dumbell Overhead Tricep Extension', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
             ],
             'Tuesday': [
                 {'name': 'Bent Over Dumbell Row', 'freq': '3 x 12'},
@@ -302,7 +320,7 @@ programs = {
                 {'name': 'Miltary Overhead Press', 'freq': '3 x 10'},
                 {'name': 'Barbell Shrugs', 'freq': '3 x 15'},
                 {'name': 'Front Plate Raise with Twist', 'freq': '3 x 10'},
-                {'name': 'Sport Drill of Choice', 'freq': '15 min'},
+                {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
             ],
             'Friday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                                
@@ -313,10 +331,34 @@ programs = {
             ]               
         },    
         '6': {
-            'Monday': [],
-            'Tuesday': [],
-            'Thursday': [],
-            'Friday': []               
+            'Monday': [
+                {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
+                {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Chest Flyes', 'freq': '3 x 10'},
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
+                {'name': 'Unilateral Cable Tricep Pushdown', 'freq': '3 x 10'},                                 
+            ],
+            'Tuesday': [
+                {'name': 'Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
+                {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
+                {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},                                
+            ],
+            'Thursday': [
+                {'name': 'Dumbell Shoulder Press', 'freq': '3 x 10'},
+                {'name': 'Barbell Upright Row', 'freq': '3 x 10'},
+                {'name': 'Dumbell Side Lateral Raise', 'freq': '3 x 10'},
+                {'name': 'Front Plate Raise with Twist', 'freq': '3 x 10'},
+                {'name': 'Barbell Shrugs', 'freq': '3 x 10'},
+            ],
+            'Friday': [
+                {'name': 'Barbell Squat', 'freq': '3 x 8'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
+                {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
+                {'name': 'Calf Raise', 'freq': '3 x 15'},
+            ]               
         },
         '7': {
             'Monday': [],
@@ -499,7 +541,7 @@ programs = {
                 {'name': 'Dumbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbell Front Lateral Raise', 'freq': '3 x 10'},
                 {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Dumbell Overhead Tricep Extension', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
             ],
             'Tuesday': [
                 {'name': 'Bent Over Dumbell Row', 'freq': '3 x 12'},
@@ -513,7 +555,7 @@ programs = {
                 {'name': 'Dumbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Miltary Overhead Press', 'freq': '3 x 10'},
                 {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Sport Drill of Choice', 'freq': '15 min'},
+                {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
             ],
             'Thursday': [
                 {'name': 'Bent Over Dumbell Row', 'freq': '3 x 12'},
@@ -531,11 +573,41 @@ programs = {
             ]               
         },    
         '6': {
-            'Monday': [],
-            'Tuesday': [],
-            'Wednesday': [],
-            'Thursday': [],
-            'Friday': []               
+            'Monday': [
+                {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
+                {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Chest Flyes', 'freq': '3 x 10'},
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+            ],
+            'Tuesday': [
+                {'name': 'Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
+                {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
+                {'name': 'Dumbell Hammer Curl', 'freq': '3 x 12'},                
+            ],
+            'Wednesday': [
+                {'name': 'Dumbell Bench Press', 'freq': '3 x 10'},
+                {'name': 'Dumbell Incline Bench Press', 'freq': '3 x 10'},
+                {'name': 'Miltary Press', 'freq': '3 x 10'},
+                {'name': 'Machine Chest Flyes', 'freq': '3 x 10'},
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+            ],
+            'Thursday': [
+                {'name': 'Close Grip Lat Pulldown', 'freq': '3 x 10'},
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
+                {'name': 'Underhand Row', 'freq': '3 x 10'},
+                {'name': 'Dumbell Preacher Curl', 'freq': '3 x 12'},
+                {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},                
+            ],
+            'Friday': [
+                {'name': 'Barbell Squat', 'freq': '3 x 8'},
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
+                {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
+                {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
+                {'name': 'Calf Raise', 'freq': '3 x 15'},
+            ]               
         },
         '7': {
             'Monday': [],
