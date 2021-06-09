@@ -158,9 +158,27 @@ programs = {
             ]            
         },
         '7': {
-            'Monday': [],
-            'Wednesday': [],
-            'Friday': []            
+            'Monday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+            ],
+            'Wednesday': [
+                {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
+                {'name': 'Dumbell Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ],
+            'Friday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+            ]            
         },
         '8': {
             'Monday': [],
@@ -361,10 +379,34 @@ programs = {
             ]               
         },
         '7': {
-            'Monday': [],
-            'Tuesday': [],
-            'Thursday': [],
-            'Friday': []               
+            'Monday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+            ],
+            'Tuesday': [
+                {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
+                {'name': 'Dumbell Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ],
+            'Thursday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                                
+            ],
+            'Friday': [
+                {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Machine Leg Press', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ]               
         },
         '8': {
             'Monday': [],
@@ -610,11 +652,41 @@ programs = {
             ]               
         },
         '7': {
-            'Monday': [],
-            'Tuesday': [],
-            'Wednesday': [],
-            'Thursday': [],
-            'Friday': []               
+            'Monday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+            ],
+            'Tuesday': [
+                {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
+                {'name': 'Dumbell Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ],
+            'Wednesday': [
+                {'name': 'Elliptical Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Bicep Curl', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ],
+            'Thursday': [
+                {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Barbell Squat', 'freq': '5 x 5'},
+                {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                                
+            ],
+            'Friday': [
+                {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
+                {'name': 'Bench Press', 'freq': '5 x 5'},
+                {'name': 'Machine Leg Press', 'freq': '5 x 5'},
+                {'name': 'Machine Row', 'freq': '5 x 5'},
+                {'name': 'Dumbell Shoulder Press', 'freq': '5 x 5'},                
+            ]               
         },
         '8': {
             'Monday': [],
