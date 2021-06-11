@@ -18,7 +18,7 @@
 '''
 
 programs = {
-    'malePrograms3': { 
+    'malePrograms3': {
         '1': {
             'Monday': [
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 12'},
@@ -32,14 +32,14 @@ programs = {
                 {'name': 'Seated Cable Row', 'freq': '3 x 12'},
                 {'name': 'Face Pull', 'freq': '3 x 15'},
                 {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},                
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
                 {'name': 'Barbell Squat', 'freq': '3 x 12'},
-                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
                 {'name': 'Exercise Bike', 'freq': '15 min'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
-                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},                              
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},
             ]
         },
         '2': {
@@ -63,7 +63,7 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Bicycle Crunches', 'freq': '3 x 15'},
                 {'name': 'Russian Twists', 'freq': '3 x 15'},
-            ]            
+            ]
         },
         '3': {
             'Monday': [
@@ -71,22 +71,22 @@ programs = {
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},
             ],
             'Wednesday': [
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
-                {'name': 'T-Bar Row', 'freq': '3 x 10'},  
+                {'name': 'T-Bar Row', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bicep Curl', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},  
+                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Shoulder Press', 'freq': '3 x 10'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
                 {'name': 'Mountain Climber', 'freq': '3 x 15'},
-            ]            
+            ]
         },
         '4': {
             'Monday': [
@@ -105,49 +105,49 @@ programs = {
             ],
             'Friday': [
                 {'name': 'Treadmill HIIT', 'freq': '15 min'},
-                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'}, 
+                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'},
                 {'name': 'Barbell Squat', 'freq': '3 x 8'},
                 {'name': 'Hanging Leg Raise', 'freq': '3 x 15'},
-                {'name': 'Plank', 'freq': '3 x 1.5 min'},                           
-            ]            
+                {'name': 'Plank', 'freq': '3 x 1.5 min'},
+            ]
         },
         '5': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Front Lateral Raise', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},
             ],
             'Wednesday': [
                 {'name': 'Bent Over Dumbbell Row', 'freq': '3 x 12'},
-                {'name': 'Seated Cable Row', 'freq': '3 x 10'},    
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Barbell Deadlift', 'freq': '3 x 8'},
-                {'name': 'Face Pull', 'freq': '3 x 12'},                                                
+                {'name': 'Face Pull', 'freq': '3 x 12'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
-            ]            
-        },    
+            ]
+        },
         '6': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Chest Flyes', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
             ],
             'Wednesday': [
                 {'name': 'Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},                
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
                 {'name': 'Barbell Squat', 'freq': '3 x 8'},
@@ -155,7 +155,7 @@ programs = {
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 15'},
-            ]            
+            ]
         },
         '7': {
             'Monday': [
@@ -163,22 +163,22 @@ programs = {
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
             ],
             'Wednesday': [
                 {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
                 {'name': 'Dumbbell Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
             ],
             'Friday': [
                 {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
-            ]            
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
+            ]
         },
         '8': {
             'Monday': [
@@ -201,7 +201,7 @@ programs = {
                 {'name': 'Barbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 10'},
-            ]            
+            ]
         },
         '9': {
             'Monday': [
@@ -224,7 +224,7 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 12'},
                 {'name': 'Russian Twist', 'freq': '3 x 15'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
-            ]            
+            ]
         },
         '10': {
             'Monday': [
@@ -247,8 +247,8 @@ programs = {
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Burpees', 'freq': '3 x 10'}
-            ]            
-        }           
+            ]
+        }
     },
 
     'malePrograms4': {
@@ -258,14 +258,14 @@ programs = {
                 {'name': 'Incline Dumbbell Bench Press', 'freq': '3 x 12'},
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
                 {'name': 'Barbell Skullcrushers', 'freq': '3 x 12'},
-                {'name': 'Tricep Dips', 'freq': '3 x 8'},                
+                {'name': 'Tricep Dips', 'freq': '3 x 8'},
             ],
             'Tuesday': [
                 {'name': 'Wide Grip Pullup', 'freq': '3 x 8'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 12'},
                 {'name': 'Face Pull', 'freq': '3 x 15'},
                 {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},  
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Thursday': [
                 {'name': 'Arnold Dumbbell Press', 'freq': '3 x 12'},
@@ -276,11 +276,11 @@ programs = {
             ],
             'Friday': [
                 {'name': 'Barbell Squat', 'freq': '3 x 12'},
-                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
                 {'name': 'Exercise Bike', 'freq': '15 min'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
-                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},   
-            ]              
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},
+            ]
         },
         '2': {
             'Monday': [
@@ -295,7 +295,7 @@ programs = {
                 {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
                 {'name': 'Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bicep Curl', 'freq': '3 x 15'},
-                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},
             ],
             'Thursday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
@@ -310,22 +310,22 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Bicycle Crunches', 'freq': '3 x 15'},
                 {'name': 'Russian Twists', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '3': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},  
-                {'name': 'Tricep Dips', 'freq': '3 x 8'},              
+                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},
+                {'name': 'Tricep Dips', 'freq': '3 x 8'},
             ],
             'Tuesday': [
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
-                {'name': 'T-Bar Row', 'freq': '3 x 10'},  
+                {'name': 'T-Bar Row', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bicep Curl', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},  
+                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},
             ],
             'Thursday': [
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
@@ -335,12 +335,12 @@ programs = {
                 {'name': 'Front Plate Raise with Twist', 'freq': '3 x 10'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
                 {'name': 'Mountain Climber', 'freq': '3 x 15'},
-                {'name': 'Hanging Leg Raise', 'freq': '3 x 15'},                              
-            ]               
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 15'},
+            ]
         },
         '4': {
             'Monday': [
@@ -366,25 +366,25 @@ programs = {
             ],
             'Friday': [
                 {'name': 'Treadmill HIIT', 'freq': '15 min'},
-                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'}, 
+                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'},
                 {'name': 'Barbell Squat', 'freq': '3 x 8'},
                 {'name': 'Hanging Leg Raise', 'freq': '3 x 15'},
-                {'name': 'Plank', 'freq': '3 x 1.5 min'},                           
-            ]               
+                {'name': 'Plank', 'freq': '3 x 1.5 min'},
+            ]
         },
         '5': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},
             ],
             'Tuesday': [
                 {'name': 'Bent Over Dumbbell Row', 'freq': '3 x 12'},
-                {'name': 'Seated Cable Row', 'freq': '3 x 10'},    
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Barbell Deadlift', 'freq': '3 x 8'},
-                {'name': 'Face Pull', 'freq': '3 x 12'},                                                
+                {'name': 'Face Pull', 'freq': '3 x 12'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
             ],
             'Thursday': [
@@ -395,27 +395,27 @@ programs = {
                 {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
-            ]               
-        },    
+            ]
+        },
         '6': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Chest Flyes', 'freq': '3 x 10'},
                 {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
-                {'name': 'Unilateral Cable Tricep Pushdown', 'freq': '3 x 10'},                                 
+                {'name': 'Unilateral Cable Tricep Pushdown', 'freq': '3 x 10'},
             ],
             'Tuesday': [
                 {'name': 'Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},                                
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Thursday': [
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
@@ -430,7 +430,7 @@ programs = {
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '7': {
             'Monday': [
@@ -438,29 +438,29 @@ programs = {
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
             ],
             'Tuesday': [
                 {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
                 {'name': 'Dumbbell Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
             ],
             'Thursday': [
                 {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                                
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
             ],
             'Friday': [
                 {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Machine Leg Press', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
-            ]               
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
+            ]
         },
         '8': {
             'Monday': [
@@ -490,7 +490,7 @@ programs = {
                 {'name': 'Barbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 10'},
-            ]               
+            ]
         },
         '9': {
             'Monday': [
@@ -520,7 +520,7 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 12'},
                 {'name': 'Russian Twist', 'freq': '3 x 15'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '10': {
             'Monday': [
@@ -550,8 +550,8 @@ programs = {
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Burpees', 'freq': '3 x 10'}
-            ]               
-        }      
+            ]
+        }
     },
 
     'malePrograms5': {
@@ -561,36 +561,36 @@ programs = {
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
                 {'name': 'Arnold Dumbbell Press', 'freq': '3 x 12'},
                 {'name': 'Cable Lateral Raise', 'freq': '3 x 12'},
-                {'name': 'Tricep Dips', 'freq': '3 x 8'},                
+                {'name': 'Tricep Dips', 'freq': '3 x 8'},
             ],
             'Tuesday': [
                 {'name': 'Wide Grip Pullup', 'freq': '3 x 8'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 12'},
                 {'name': 'Face Pull', 'freq': '3 x 15'},
                 {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},                    
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Wednesday': [
                 {'name': 'Incline Dumbbell Bench Press', 'freq': '3 x 12'},
                 {'name': 'Dumbbell Chest Flyes', 'freq': '3 x 12'},
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 12'},
                 {'name': 'Dumbbell Side Lateral Raise', 'freq': '3 x 12'},
-                {'name': 'Tricep Pushdown', 'freq': '3 x 12'},                      
+                {'name': 'Tricep Pushdown', 'freq': '3 x 12'},
             ],
             'Thursday': [
                 {'name': 'Chinups', 'freq': '3 x 8'},
                 {'name': 'Seated Machine Row', 'freq': '3 x 12'},
                 {'name': 'Barbell Upright Row', 'freq': '3 x 12'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
-                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},                 
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
                 {'name': 'Barbell Squat', 'freq': '3 x 12'},
-                {'name': 'Machine Leg Press', 'freq': '3 x 12'}, 
+                {'name': 'Machine Leg Press', 'freq': '3 x 12'},
                 {'name': 'Exercise Bike', 'freq': '15 min'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 10'},
-                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},                      
-            ]              
+                {'name': 'Hanging Leg Raise', 'freq': '3 x 10'},
+            ]
         },
         '2': {
             'Monday': [
@@ -627,7 +627,7 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Bicycle Crunches', 'freq': '3 x 15'},
                 {'name': 'Russian Twists', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '3': {
             'Monday': [
@@ -635,36 +635,36 @@ programs = {
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},
             ],
             'Tuesday': [
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
-                {'name': 'T-Bar Row', 'freq': '3 x 10'},  
+                {'name': 'T-Bar Row', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bicep Curl', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},  
+                {'name': 'Dumbbell Concentration Curl', 'freq': '3 x 10'},
             ],
             'Wednesday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Machine Shoulder Press', 'freq': '3 x 10'},
-                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Overhead Tricep Extension', 'freq': '3 x 10'},
             ],
             'Thursday': [
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Close Grip Lat Pulldown', 'freq': '3 x 10'},
-                {'name': 'T-Bar Row', 'freq': '3 x 10'},  
+                {'name': 'T-Bar Row', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Bicep Curl', 'freq': '3 x 10'},
-                {'name': 'Barbell Preacher Curl', 'freq': '3 x 10'},  
+                {'name': 'Barbell Preacher Curl', 'freq': '3 x 10'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Shoulder Press', 'freq': '3 x 10'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
                 {'name': 'Mountain Climber', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '4': {
             'Monday': [
@@ -672,7 +672,7 @@ programs = {
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '5 x 5'},
                 {'name': 'Arnold Dumbbell Press', 'freq': '3 x 12'},
                 {'name': 'Barbell Skullcrushers', 'freq': '3 x 12'},
-                {'name': 'Barbell Close Grip Bench Press', 'freq': '3 x 8'},                
+                {'name': 'Barbell Close Grip Bench Press', 'freq': '3 x 8'},
             ],
             'Tuesday': [
                 {'name': 'Farmers Walk', 'freq': '150 Steps'},
@@ -697,77 +697,77 @@ programs = {
             ],
             'Friday': [
                 {'name': 'Treadmill HIIT', 'freq': '15 min'},
-                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'}, 
+                {'name': 'Machine Leg Press Pyramid Sets', 'freq': '5 x 8'},
                 {'name': 'Barbell Squat', 'freq': '3 x 8'},
                 {'name': 'Hanging Leg Raise', 'freq': '3 x 15'},
-                {'name': 'Plank', 'freq': '3 x 1.5 min'},                           
-            ]               
+                {'name': 'Plank', 'freq': '3 x 1.5 min'},
+            ]
         },
         '5': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Front Lateral Raise', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
-                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},                
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
+                {'name': 'Battle Ropes', 'freq': '3 x 1 min'},
             ],
             'Tuesday': [
                 {'name': 'Bent Over Dumbbell Row', 'freq': '3 x 12'},
-                {'name': 'Seated Cable Row', 'freq': '3 x 10'},    
+                {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Barbell Deadlift', 'freq': '3 x 8'},
-                {'name': 'Face Pull', 'freq': '3 x 12'},                                                
+                {'name': 'Face Pull', 'freq': '3 x 12'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
             ],
             'Wednesday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Miltary Overhead Press', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
                 {'name': 'Rowing Machine', 'freq': '3 x 3 min'},
             ],
             'Thursday': [
                 {'name': 'Bent Over Dumbbell Row', 'freq': '3 x 12'},
-                {'name': 'Seated Cable Row Wide Grip', 'freq': '3 x 10'},    
+                {'name': 'Seated Cable Row Wide Grip', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Deadlift', 'freq': '3 x 10'},
                 {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
-                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},                                
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
-            ]               
-        },    
+            ]
+        },
         '6': {
             'Monday': [
                 {'name': 'Barbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Barbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Shoulder Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Chest Flyes', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
             ],
             'Tuesday': [
                 {'name': 'Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Reverse Grip Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Barbell Preacher Curl', 'freq': '3 x 12'},
-                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},                
+                {'name': 'Dumbbell Hammer Curl', 'freq': '3 x 12'},
             ],
             'Wednesday': [
                 {'name': 'Dumbbell Bench Press', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Incline Bench Press', 'freq': '3 x 10'},
                 {'name': 'Miltary Press', 'freq': '3 x 10'},
                 {'name': 'Machine Chest Flyes', 'freq': '3 x 10'},
-                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},                 
+                {'name': 'Tricep Rope Pushdown', 'freq': '3 x 10'},
             ],
             'Thursday': [
                 {'name': 'Close Grip Lat Pulldown', 'freq': '3 x 10'},
                 {'name': 'Seated Cable Row', 'freq': '3 x 10'},
                 {'name': 'Underhand Row', 'freq': '3 x 10'},
                 {'name': 'Dumbbell Preacher Curl', 'freq': '3 x 12'},
-                {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},                
+                {'name': 'Barbell Bicep Curl', 'freq': '3 x 12'},
             ],
             'Friday': [
                 {'name': 'Barbell Squat', 'freq': '3 x 8'},
@@ -775,7 +775,7 @@ programs = {
                 {'name': 'Machine Leg Extension', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '7': {
             'Monday': [
@@ -783,36 +783,36 @@ programs = {
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
             ],
             'Tuesday': [
                 {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
                 {'name': 'Dumbbell Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
             ],
             'Wednesday': [
                 {'name': 'Elliptical Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Bicep Curl', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
             ],
             'Thursday': [
                 {'name': 'Treadmill Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Barbell Squat', 'freq': '5 x 5'},
                 {'name': 'Barbell Deadlift', 'freq': '5 x 5'},
-                {'name': 'Military Overhead Press', 'freq': '5 x 5'},                                
+                {'name': 'Military Overhead Press', 'freq': '5 x 5'},
             ],
             'Friday': [
                 {'name': 'Exercise Bike Low Intensity', 'freq': '15 min'},
                 {'name': 'Bench Press', 'freq': '5 x 5'},
                 {'name': 'Machine Leg Press', 'freq': '5 x 5'},
                 {'name': 'Machine Row', 'freq': '5 x 5'},
-                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},                
-            ]               
+                {'name': 'Dumbbell Shoulder Press', 'freq': '5 x 5'},
+            ]
         },
         '8': {
             'Monday': [
@@ -849,7 +849,7 @@ programs = {
                 {'name': 'Barbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Curl', 'freq': '3 x 10'},
                 {'name': 'Calf Raise', 'freq': '3 x 10'},
-            ]               
+            ]
         },
         '9': {
             'Monday': [
@@ -886,7 +886,7 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 12'},
                 {'name': 'Russian Twist', 'freq': '3 x 15'},
                 {'name': 'Abdominal Crunch', 'freq': '3 x 15'},
-            ]               
+            ]
         },
         '10': {
             'Monday': [
@@ -923,8 +923,8 @@ programs = {
                 {'name': 'Barbell Squat', 'freq': '3 x 10'},
                 {'name': 'Machine Leg Press Explosive', 'freq': '3 x 10'},
                 {'name': 'Burpees', 'freq': '3 x 10'}
-            ]               
-        }           
+            ]
+        }
     },
 
     'femalePrograms3': {
@@ -934,14 +934,14 @@ programs = {
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
                 {'name': 'Barbell Pelvic Thrust', 'freq': '3 x 8'},
                 {'name': 'Kettlebell Swing', 'freq': '3 x 8'},
-                {'name': 'Plank', 'freq': '3 x 1 min'},                                 
+                {'name': 'Plank', 'freq': '3 x 1 min'},
             ],
             'Wednesday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Machine Assisted Pullups', 'freq': '3 x 5'},
-                {'name': 'Dumbbell Row', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Row', 'freq': '3 x 10'},
                 {'name': 'Bar Cable Curl', 'freq': '3 x 12'},
-                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},                
+                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},
             ],
             'Friday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
@@ -952,50 +952,59 @@ programs = {
             ]
         },
         '2': {
-            'Monday': [],
-            'Wednesday': [],
-            'Friday': []            
+            'Monday': [
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
+                {'name': 'Burpees', 'freq': '3 x 12'},
+                {'name': 'Burpees', 'freq': '3 x 12'},
+
+            ],
+            'Wednesday': [
+                {'name': 'Exercise Bike', 'freq': '15 min'},
+            ],
+            'Friday': [
+                {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
+            ]
         },
         '3': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '4': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '5': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
-        },    
+            'Friday': []
+        },
         '6': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '7': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '8': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '9': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
+            'Friday': []
         },
         '10': {
             'Monday': [],
             'Wednesday': [],
-            'Friday': []            
-        }               
+            'Friday': []
+        }
     },
 
     'femalePrograms4': {
@@ -1010,16 +1019,16 @@ programs = {
             'Tuesday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Machine Assisted Pullups', 'freq': '3 x 5'},
-                {'name': 'Dumbbell Row', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Row', 'freq': '3 x 10'},
                 {'name': 'Bar Cable Curl', 'freq': '3 x 12'},
-                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},                
+                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},
             ],
             'Thursday': [
                 {'name': 'Kettlebell Swing', 'freq': '3 x 8'},
                 {'name': 'Kettlebell High Pull', 'freq': '3 x 10'},
                 {'name': 'Dumbell Shoulder Press', 'freq': '3 x 10'},
                 {'name': 'Outer Thigh Squeeze', 'freq': '3 x 10'},
-                {'name': 'Bicycle Crunches', 'freq': '3 x 15'},                                                            
+                {'name': 'Bicycle Crunches', 'freq': '3 x 15'},
             ],
             'Friday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
@@ -1027,62 +1036,62 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Inner Thigh Squeeze', 'freq': '3 x 10'},
                 {'name': 'Side Plank', 'freq': '3 x 1 min'},
-            ]              
+            ]
         },
         '2': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '3': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '4': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '5': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
-        },    
+            'Friday': []
+        },
         '6': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '7': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '8': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '9': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '10': {
             'Monday': [],
             'Tuesday': [],
             'Thursday': [],
-            'Friday': []               
-        }       
+            'Friday': []
+        }
     },
 
     'femalePrograms5': {
@@ -1092,28 +1101,28 @@ programs = {
                 {'name': 'Cable Chest Flyes', 'freq': '3 x 15'},
                 {'name': 'Barbell Pelvic Thrust', 'freq': '3 x 8'},
                 {'name': 'Kettlebell Swing', 'freq': '3 x 8'},
-                {'name': 'Plank', 'freq': '3 x 1 min'},                                 
+                {'name': 'Plank', 'freq': '3 x 1 min'},
             ],
             'Tuesday': [
                 {'name': 'Exercise Bike Medium Intensity', 'freq': '15 min'},
                 {'name': 'Machine Assisted Pullups', 'freq': '3 x 5'},
-                {'name': 'Dumbbell Row', 'freq': '3 x 10'},                
+                {'name': 'Dumbbell Row', 'freq': '3 x 10'},
                 {'name': 'Bar Cable Curl', 'freq': '3 x 12'},
-                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},                
+                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},
             ],
             'Wednesday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
                 {'name': 'Cable Incline Chest Flyes', 'freq': '3 x 15'},
                 {'name': 'Barbell Pelvic Thrust', 'freq': '3 x 8'},
                 {'name': 'Kettlebell Raise', 'freq': '3 x 8'},
-                {'name': 'Lying Leg Raises', 'freq': '3 x 15'},                                 
+                {'name': 'Lying Leg Raises', 'freq': '3 x 15'},
             ],
             'Thursday': [
                 {'name': 'Exercise Bike Medium Intensity', 'freq': '15 min'},
                 {'name': 'Lat Pulldown', 'freq': '3 x 10'},
-                {'name': 'Kettlebell Row', 'freq': '3 x 10'},                
+                {'name': 'Kettlebell Row', 'freq': '3 x 10'},
                 {'name': 'Unilateral Cable Curl', 'freq': '3 x 12'},
-                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},                
+                {'name': 'Mountain Climber', 'freq': '3 x 45 secs'},
             ],
             'Friday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
@@ -1121,70 +1130,70 @@ programs = {
                 {'name': 'Dumbbell Lunges', 'freq': '3 x 10'},
                 {'name': 'Inner Thigh Squeeze', 'freq': '3 x 10'},
                 {'name': 'Side Plank', 'freq': '3 x 1 min'},
-            ]              
+            ]
         },
         '2': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '3': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '4': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '5': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
-        },    
+            'Friday': []
+        },
         '6': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '7': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '8': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '9': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
+            'Friday': []
         },
         '10': {
             'Monday': [],
             'Tuesday': [],
             'Wednesday': [],
             'Thursday': [],
-            'Friday': []               
-        }       
+            'Friday': []
+        }
     }
 }
