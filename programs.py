@@ -1175,7 +1175,6 @@ programs = {
                 {'name': 'Lying-Down Band Leg Abductions', 'freq': '3 x 10'},
                 {'name': 'Sumo Squat', 'freq': '3 x 15'},
                 {'name': 'Russian Twists', 'freq': '3 x 15'},
-
             ],
             'Thursday': [
                 {'name': 'Treadmill Medium Intensity', 'freq': '15 min'},
@@ -1353,7 +1352,7 @@ programs = {
             'Tuesday': [
                 {'name': 'Exercise Bike', 'freq': '15 min'},
                 {'name': 'Dumbbell Squat', 'freq': '3 x 10'},
-                {'name': 'Lying-Down Band Leg Abductions', 'freq': '3 x 10'},
+                {'name': 'Lying Band Leg Abductions', 'freq': '3 x 10'},
                 {'name': 'Sumo Squat', 'freq': '3 x 15'},
                 {'name': 'Russian Twists', 'freq': '3 x 15'},
             ],
