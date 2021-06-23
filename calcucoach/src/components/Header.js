@@ -1,13 +1,11 @@
-function Header() {
-    return (
-      <div style={{width: "100%", display: "flex", alignItems: "baseline", justifyContent: "center"}}>
-        <div style={{fontSize: "3vw", letterSpacing: "-0.06em", textAlign: "right", width: "auto"}}>contact</div>          
-        <div style={{fontSize: "7vw", letterSpacing: "-0.06em", marginInline: "7vw"}}>calcucoach</div>
-        <div style={{fontSize: "3vw", letterSpacing: "-0.06em"}}>faq</div>
-        {/* Text */}
-        {/* button to start */}
-      </div>
-    );
-  }
-  
-  export default Header;
+import Faq from "./Faq";
+import Title from "./Title";
+
+export default function Header() {
+  return (
+    <div style={{width: "100%",display: "flex",alignItems: "center",justifyContent: "center", backgroundColor: "#5AA9E6"}}>
+      <Title/>
+      <Faq/>
+    </div>
+  );
+}
