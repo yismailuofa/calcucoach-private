@@ -6,11 +6,13 @@ export default function IntroText() {
         background: "#4a86ba",
         padding: "4vh",
         paddingTop: "2vh",
-        borderRadius: "30px",
+        marginTop: "-4vh",
+        borderRadius: "4vh",
         display: "flex",
         flexDirection: "column",
         position: "relative",
-        justifyText: "center"
+        justifyText: "center",
+        boxShadow: "0vw 5px 20px black",
       }}
     >
       Free training.<br/>Made for you.

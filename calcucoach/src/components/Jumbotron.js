@@ -9,8 +9,9 @@ export default function Jumbotron() {
         width: "100vw",
         height: "100vh",
         backgroundSize: "cover",
-        backgroundPosition: "40% 25%",
+        backgroundPosition: "45% 55%",
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center"
       }}
