@@ -10,7 +10,8 @@ export default function Header() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        boxShadow: "0vw 10px 40px black"
+        boxShadow: "0vw 20px 40px black",
+        position: "relative",
       }}
     >
       <Title />

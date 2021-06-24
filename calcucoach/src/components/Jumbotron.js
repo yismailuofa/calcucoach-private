@@ -7,10 +7,9 @@ export default function Jumbotron() {
       style={{
         backgroundImage: `url(${banner})`,
         width: "100vw",
-        height: "100%",
+        height: "100vh",
         backgroundSize: "cover",
         backgroundPosition: "40% 25%",
-        opacity: "0.6",
         display: "flex",
         justifyContent: "center",
         alignItems: "center"

@@ -7,6 +7,9 @@ export default function Faq() {
           letterSpacing: "-0.06em",
           textDecoration: "none",
           color: "inherit",
+          display: "flex",
+          alignItems: "center",
+          height: "100%"
         }}
       >
         faq

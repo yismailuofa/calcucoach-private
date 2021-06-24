@@ -9,6 +9,9 @@ export default function Title() {
         marginLeft: "24vw",
         textDecoration: "none",
         color: "inherit",
+        display: "flex",
+        alignItems: "center",
+        height: "100%"
       }}
     >
       calcucoach
