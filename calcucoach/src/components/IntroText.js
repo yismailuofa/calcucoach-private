@@ -18,7 +18,7 @@ export default function IntroText(props) {
       }}
     >
       Free training.<br/>Made for you.
-      <StartButton prev={props.prevStep}/> 
+      <StartButton prevStep={props.prevStep}/> 
     </div>
   );
 }
