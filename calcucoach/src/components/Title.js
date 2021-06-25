@@ -11,7 +11,7 @@ export default function Title() {
         color: "inherit",
         display: "flex",
         alignItems: "center",
-        height: "100%"
+        height: "8vw"
       }}
     >
       calcucoach

@@ -1,25 +1,7 @@
 import Header from "./Header";
 import Jumbotron from "./Jumbotron";
-import { Component } from "react";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      step: 0,
-    }
-  }
-
-  prevStep = (e) => {
-    e.preventDefault()
-    e.stopPropagation()
-    this.setState({
-      step: this.state.step - 1
-    })
-  }
-
-  render() {
+export default function App() {
     return (
       <div
         style={{
@@ -32,8 +14,7 @@ export default class App extends Component {
         }}
       >
         <Header />
-        <Jumbotron />
+        <Jumbotron/>
       </div>
     );
   }
-}

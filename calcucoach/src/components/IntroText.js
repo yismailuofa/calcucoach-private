@@ -1,6 +1,6 @@
 import StartButton from "./StartButton";
 
-export default function IntroText() {
+export default function IntroText(props) {
   return (
     <div
       style={{
@@ -18,7 +18,7 @@ export default function IntroText() {
       }}
     >
       Free training.<br/>Made for you.
-      <StartButton/> 
+      <StartButton prev={props.prevStep}/> 
     </div>
   );
 }
