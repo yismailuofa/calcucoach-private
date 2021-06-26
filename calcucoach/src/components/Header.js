@@ -1,7 +1,7 @@
-import Faq from "./Faq";
+import FaqButton from "./FaqButton";
 import Title from "./Title";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div
       style={{
@@ -15,7 +15,7 @@ export default function Header() {
       }}
     >
       <Title />
-      <Faq />
+      <FaqButton faqStep={props.faqStep}/>
     </div>
   );
 }

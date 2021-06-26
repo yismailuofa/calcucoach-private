@@ -17,7 +17,6 @@ export default function StartButton(props) {
         borderRadius: "30px",
         height: "100%",
       }}
-      onClick={props.prevStep}
     >
       Start Your Journey
     </button>

@@ -1,4 +1,4 @@
-export default function Faq() {
+export default function FaqButton(props) {
   return (
       <button
       style={{
@@ -15,6 +15,7 @@ export default function Faq() {
         cursor: "pointer",
         padding: "0"
       }}
+      onClick={props.faqStep}
     >
       faq
     </button>    
