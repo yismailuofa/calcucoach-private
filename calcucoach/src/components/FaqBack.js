@@ -1,4 +1,4 @@
-export default function FaqBack(props) {
+export default function FaqBack({faqHide}) {
   return (
     <div>
       <button
@@ -18,7 +18,7 @@ export default function FaqBack(props) {
           justifyContent: "center",
           borderRadius: "30px",
         }}
-        onClick={props.nextStep}
+        onClick={faqHide}
       >
         Go Back
       </button>

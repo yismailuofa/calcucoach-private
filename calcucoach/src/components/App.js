@@ -8,14 +8,22 @@ export default class App extends Component {
 
     this.state = {
       step: 0,
+      isFaq: false,
     };
   }
 
-  faqStep = (e) => {
+  faqShow = (e) => {
     this.setState({
-      step: -1,
+      isFaq: true,
     });
   };
+
+  faqHide = (e) => {
+    this.setState({
+      isFaq: false,
+    });
+  };
+
   prevStep = (e) => {
     this.setState({
       step: this.state.step - 1,
@@ -40,8 +48,14 @@ export default class App extends Component {
           letterSpacing: "-0.06em",
         }}
       >
-        <Header faqStep={this.faqStep}/>
-        <Jumbotron step={this.state.step} prevStep={this.prevStep} nextStep={this.nextStep}/>
+        <Header faqShow={this.faqShow} />
+        <Jumbotron
+          step={this.state.step}
+          isFaq={this.state.isFaq}
+          prevStep={this.prevStep}
+          nextStep={this.nextStep}
+          faqHide={this.faqHide}
+        />
       </div>
     );
   }

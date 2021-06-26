@@ -5,7 +5,8 @@ export default function IntroText(props) {
     <div
       style={{
         fontSize: "5vh",
-        backgroundColor: "#4a86ba",
+        // backgroundColor: "#4a86ba",
+        background: "linear-gradient(135deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
         padding: "4vh",
         paddingTop: "2vh",
         marginTop: "-4vh",

@@ -4,9 +4,8 @@ import IntroText from "./IntroText";
 import FaqText from "./FaqText";
 import FaqBack from "./FaqBack";
 
-export default function Jumbotron(props) {
-  const isBlur = props.step < 0;
-  const bannerImg = isBlur ? bannerBlurred : banner;
+export default function Jumbotron({step, isFaq, prevStep, nextStep, faqHide}) {
+  const bannerImg = isFaq ? bannerBlurred : banner;
   return (
     <div
       style={{
@@ -22,12 +21,13 @@ export default function Jumbotron(props) {
         transition: "background-image .7s linear",
       }}
     >
-      {props.step === -1 && (
+      {isFaq && (
         <>
-          <FaqText /> <FaqBack nextStep={props.nextStep}/>
+          <FaqText /> <FaqBack faqHide={faqHide} />
         </>
       )}
-      {props.step === 0 && <IntroText />}
+
+      {!isFaq && step === 0 && <IntroText />}
     </div>
   );
 }

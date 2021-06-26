@@ -17,6 +17,7 @@ export default function StartButton(props) {
         borderRadius: "30px",
         height: "100%",
       }}
+      onClick={() => {console.log("joon")}}
     >
       Start Your Journey
     </button>

@@ -1,7 +1,7 @@
 import FaqButton from "./FaqButton";
 import Title from "./Title";
 
-export default function Header(props) {
+export default function Header({faqShow}) {
   return (
     <div
       style={{
@@ -15,7 +15,7 @@ export default function Header(props) {
       }}
     >
       <Title />
-      <FaqButton faqStep={props.faqStep}/>
+      <FaqButton faqShow={faqShow}/>
     </div>
   );
 }
