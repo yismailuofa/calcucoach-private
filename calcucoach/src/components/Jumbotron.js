@@ -1,5 +1,4 @@
 import banner from "../assets/banner.jpg";
-import bannerBlurred from "../assets/bannerBlurred.jpg";
 import StartText from "./StartText";
 import FaqScreen from "./FaqScreen";
 import { Component } from "react";
@@ -25,11 +24,10 @@ export default class Jumbotron extends Component {
   };
 
   render() {
-    const bannerImg = this.props.isFaq ? bannerBlurred : banner;
     return (
       <div
         style={{
-          backgroundImage: `url(${bannerImg})`,
+          backgroundImage: `url(${banner})`,
           width: "100vw",
           height: "100vh",
           backgroundSize: "cover",
