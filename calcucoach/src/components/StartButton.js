@@ -1,4 +1,4 @@
-export default function StartButton(props) {
+export default function StartButton({nextStep}) {
   return (
     <button
       style={{
@@ -17,7 +17,7 @@ export default function StartButton(props) {
         borderRadius: "30px",
         height: "100%",
       }}
-      onClick={() => {console.log("joon")}}
+      onClick={nextStep}
     >
       Start Your Journey
     </button>

@@ -1,42 +1,10 @@
-import { Component } from "react";
+import { useState } from "react";
 import Header from "./Header";
 import Jumbotron from "./Jumbotron";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
+export default function App() {
+  const [isFaq, setIsFaq] = useState(false)
 
-    this.state = {
-      step: 0,
-      isFaq: false,
-    };
-  }
-
-  faqShow = (e) => {
-    this.setState({
-      isFaq: true,
-    });
-  };
-
-  faqHide = (e) => {
-    this.setState({
-      isFaq: false,
-    });
-  };
-
-  prevStep = (e) => {
-    this.setState({
-      step: this.state.step - 1,
-    });
-  };
-
-  nextStep = (e) => {
-    this.setState({
-      step: this.state.step + 1,
-    });
-  };
-
-  render() {
     return (
       <div
         style={{
@@ -48,15 +16,11 @@ export default class App extends Component {
           letterSpacing: "-0.06em",
         }}
       >
-        <Header faqShow={this.faqShow} />
+        <Header faqShow={(e) => setIsFaq(true)} />
         <Jumbotron
-          step={this.state.step}
-          isFaq={this.state.isFaq}
-          prevStep={this.prevStep}
-          nextStep={this.nextStep}
-          faqHide={this.faqHide}
+          isFaq={isFaq}
+          faqHide={(e) => setIsFaq(false)}
         />
       </div>
     );
-  }
 }
