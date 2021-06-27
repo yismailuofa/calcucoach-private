@@ -4,12 +4,17 @@ import "./styles/slideX.css";
 
 export default function StartText({ nextStep, step, isFaq }) {
   return (
-    <CSSTransition in={step === 0 && !isFaq} timeout={1400} classNames="slideX" unmountOnExit={true}>
+    <CSSTransition
+      in={step === 0 && !isFaq}
+      timeout={1400}
+      classNames="slideX"
+      unmountOnExit={true}
+    >
       <div
         style={{
           fontSize: "5vh",
           background:
-            "linear-gradient(135deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
+            "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
           padding: "4vh",
           paddingTop: "2vh",
           marginTop: "-4vh",

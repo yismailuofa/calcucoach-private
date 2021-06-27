@@ -8,6 +8,9 @@ export default class Jumbotron extends Component {
     super(props);
     this.state = {
       step: 0,
+      gender: "male",
+      workoutStyle: 0,
+      workoutDays: 3,
     };
   }
 
@@ -35,9 +38,7 @@ export default class Jumbotron extends Component {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center",
-          transition: "background-image .7s linear",
-          
+          alignItems: "center",          
         }}
       >
         <FaqScreen faqHide={this.props.faqHide} isFaq={this.props.isFaq}/>

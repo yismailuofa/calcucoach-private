@@ -10,7 +10,7 @@ export default function FaqButton({faqShow}) {
         display: "flex",
         alignItems: "center",
         height: "100%",
-        backgroundColor: "#4a86ba",
+        background: "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
         border: "none",
         cursor: "pointer",
         padding: "0"

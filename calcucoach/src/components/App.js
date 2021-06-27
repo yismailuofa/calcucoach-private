@@ -5,6 +5,10 @@ import Jumbotron from "./Jumbotron";
 export default function App() {
   const [isFaq, setIsFaq] = useState(false)
 
+  const faqShow = (e) => setIsFaq(true)
+
+  const faqHide = (e) => setIsFaq(false)
+  
     return (
       <div
         style={{
@@ -16,10 +20,10 @@ export default function App() {
           letterSpacing: "-0.06em",
         }}
       >
-        <Header faqShow={(e) => setIsFaq(true)} />
+        <Header faqShow={faqShow} />
         <Jumbotron
           isFaq={isFaq}
-          faqHide={(e) => setIsFaq(false)}
+          faqHide={faqHide}
         />
       </div>
     );

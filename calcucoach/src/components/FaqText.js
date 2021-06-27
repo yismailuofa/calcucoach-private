@@ -4,11 +4,9 @@ export default function FaqText() {
       style={{
         fontSize: "3vh",
         width: "80vw",
-        maxHeight: "65vh",
-        backgroundColor: "#4a86ba",
+        maxHeight: "55vh",
+        background: "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
         padding: "4vh",
-        paddingTop: "2vh",
-        marginTop: "-6vh",
         borderRadius: "4vh",
         display: "flex",
         flexDirection: "column",
@@ -39,6 +37,15 @@ export default function FaqText() {
         A: These workouts are designed to take about 1 hour in the gym. This
         depends on things such as experience level and rest time.
       </div>
+      <br />
+      Q: When will I see results?
+      <br />
+      <div style={{ fontSize: "2.5vh" }}>
+        A: This is a tough question because results depend on a number of factors such as 
+    diet, exeperience, intensity, form, and many more. A general estimate is that you
+    can see results within 3 months.
+      </div>
+      {/* <br /> */}
     </div>
   );
 }

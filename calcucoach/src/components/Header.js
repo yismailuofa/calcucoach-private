@@ -12,6 +12,7 @@ export default function Header({faqShow}) {
         justifyContent: "center",
         boxShadow: "0vw 2px 20px black",
         position: "relative",
+        background: "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
       }}
     >
       <Title />
