@@ -1,8 +1,7 @@
 import banner from "../assets/banner.jpg";
 import bannerBlurred from "../assets/bannerBlurred.jpg";
 import StartText from "./StartText";
-import FaqText from "./FaqText";
-import FaqBack from "./FaqBack";
+import FaqScreen from "./FaqScreen";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -40,17 +39,15 @@ export default class Jumbotron extends Component {
           justifyContent: "center",
           alignItems: "center",
           transition: "background-image .7s linear",
+          
         }}
       >
-        {this.props.isFaq && (
-          <>
-            <FaqText /> <FaqBack faqHide={this.props.faqHide} />
-          </>
-        )}
-
-        {!this.props.isFaq && this.state.step === 0 && (
-          <StartText nextStep={this.nextStep} />
-        )}
+        <FaqScreen faqHide={this.props.faqHide} isFaq={this.props.isFaq}/>
+        <StartText
+          nextStep={this.nextStep}
+          step={this.state.step}
+          isFaq={this.props.isFaq}
+        />
       </div>
     );
   }

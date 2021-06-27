@@ -1,0 +1,14 @@
+.slideX-enter {
+    transform: translateX(-100vw);
+}
+
+.slideX-enter-active {
+    transform: translateX(0vw);
+    transition: transform .8s ease-out;
+    transition-delay: .6s;
+}
+
+.slideX-exit-active {
+    transform: translateX(-100vw);
+    transition: transform .8s ease-in;
+}
