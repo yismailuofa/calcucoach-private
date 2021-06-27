@@ -1,14 +1,17 @@
 import StartButton from "./StartButton";
 import { CSSTransition } from "react-transition-group";
 import "./styles/slideX.css";
+import { useRef } from "react";
 
 export default function StartText({ nextStep, step, isFaq }) {
+  const nodeRef = useRef(null)
   return (
     <CSSTransition
       in={step === 0 && !isFaq}
       timeout={1400}
       classNames="slideX"
       unmountOnExit={true}
+      nodeRef={nodeRef}
     >
       <div
         style={{
@@ -25,6 +28,7 @@ export default function StartText({ nextStep, step, isFaq }) {
           justifyText: "center",
           boxShadow: "0vw 5px 20px black",
         }}
+        ref={nodeRef}
       >
         Free training.
         <br />
