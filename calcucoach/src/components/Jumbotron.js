@@ -27,6 +27,12 @@ export default class Jumbotron extends Component {
     });
   };
 
+  setGender = (gender) => {
+    this.setState({
+      gender: gender,
+    });
+  };
+
   render() {
     return (
       <div
@@ -39,10 +45,10 @@ export default class Jumbotron extends Component {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center",          
+          alignItems: "center",
         }}
       >
-        <FaqScreen faqHide={this.props.faqHide} isFaq={this.props.isFaq}/>
+        <FaqScreen faqHide={this.props.faqHide} isFaq={this.props.isFaq} />
         <StartText
           nextStep={this.nextStep}
           step={this.state.step}
@@ -51,6 +57,7 @@ export default class Jumbotron extends Component {
         <GenderText
           nextStep={this.nextStep}
           prevStep={this.prevStep}
+          setGender={this.setGender}
           step={this.state.step}
           isFaq={this.props.isFaq}
         />

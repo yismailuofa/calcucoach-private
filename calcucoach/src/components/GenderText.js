@@ -5,13 +5,24 @@ import FemaleButton from "./FemaleButton";
 import BackButton from "./BackButton";
 import "./styles/slideX.css";
 
-export default function GenderText({ nextStep, prevStep, step, isFaq }) {
+export default function GenderText({
+  nextStep,
+  prevStep,
+  setGender,
+  step,
+  isFaq,
+}) {
   const [animationDirection, setanimationDirection] = useState("slideXmiddle");
   const nodeRef = useRef(null);
 
   const handleBack = () => {
     setanimationDirection("slideXfront");
     prevStep();
+  };
+
+  const handleChoice = (gender) => {
+    setGender(gender);
+    nextStep();
   };
 
   return (
@@ -31,7 +42,7 @@ export default function GenderText({ nextStep, prevStep, step, isFaq }) {
         style={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "center"
+          alignItems: "center",
         }}
         ref={nodeRef}
       >
@@ -46,12 +57,17 @@ export default function GenderText({ nextStep, prevStep, step, isFaq }) {
             justifyText: "center",
             boxShadow: "0vw 5px 20px black",
           }}
-
         >
           What is your gender?
-          <div style={{ display: "flex", justifyContent: "space-around", marginBottom: "1vh" }}>
-            <MaleButton />
-            <FemaleButton />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-around",
+              marginBottom: "1vh",
+            }}
+          >
+            <MaleButton onClick={() => handleChoice("male")}/>
+            <FemaleButton onClick={() => handleChoice("female")}/>
           </div>
         </div>
         <BackButton onClick={handleBack} />
