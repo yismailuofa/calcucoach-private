@@ -1,6 +1,7 @@
 import banner from "../assets/banner.jpg";
 import StartText from "./StartText";
 import FaqScreen from "./FaqScreen";
+import GenderText from "./GenderText";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -34,7 +35,7 @@ export default class Jumbotron extends Component {
           width: "100vw",
           height: "100vh",
           backgroundSize: "cover",
-          backgroundPosition: "45% 55%",
+          backgroundPosition: "45% 42%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -44,6 +45,12 @@ export default class Jumbotron extends Component {
         <FaqScreen faqHide={this.props.faqHide} isFaq={this.props.isFaq}/>
         <StartText
           nextStep={this.nextStep}
+          step={this.state.step}
+          isFaq={this.props.isFaq}
+        />
+        <GenderText
+          nextStep={this.nextStep}
+          prevStep={this.prevStep}
           step={this.state.step}
           isFaq={this.props.isFaq}
         />

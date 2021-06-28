@@ -1,17 +1,20 @@
 import StartButton from "./StartButton";
 import { CSSTransition } from "react-transition-group";
 import "./styles/slideX.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function StartText({ nextStep, step, isFaq }) {
+  const [animationDirection, setanimationDirection] = useState("slideXmiddle")
   const nodeRef = useRef(null)
   return (
     <CSSTransition
       in={step === 0 && !isFaq}
-      timeout={1400}
-      classNames="slideX"
+      timeout={900}
+      classNames={animationDirection}
       unmountOnExit={true}
       nodeRef={nodeRef}
+      onExited={() => setanimationDirection("slideXbehind")}
+      onEntered={() => setanimationDirection("slideXmiddle")}
     >
       <div
         style={{
@@ -24,16 +27,17 @@ export default function StartText({ nextStep, step, isFaq }) {
           borderRadius: "4vh",
           display: "flex",
           flexDirection: "column",
-          position: "relative",
+          position: "absolute",
           justifyText: "center",
           boxShadow: "0vw 5px 20px black",
+
         }}
         ref={nodeRef}
       >
         Free training.
         <br />
         Made for you.
-        <StartButton nextStep={nextStep} />
+        <StartButton onClick={nextStep} />
       </div>
     </CSSTransition>
   );

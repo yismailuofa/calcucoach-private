@@ -16,7 +16,7 @@ export default function Header({faqShow}) {
       }}
     >
       <Title />
-      <FaqButton faqShow={faqShow}/>
+      <FaqButton onClick={faqShow}/>
     </div>
   );
 }

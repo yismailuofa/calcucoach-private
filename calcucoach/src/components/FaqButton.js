@@ -1,4 +1,4 @@
-export default function FaqButton({faqShow}) {
+export default function FaqButton({onClick}) {
   return (
       <button
       style={{
@@ -15,7 +15,7 @@ export default function FaqButton({faqShow}) {
         cursor: "pointer",
         padding: "0"
       }}
-      onClick={faqShow}
+      onClick={onClick}
     >
       faq
     </button>    

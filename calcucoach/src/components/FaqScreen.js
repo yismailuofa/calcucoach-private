@@ -1,4 +1,4 @@
-import FaqBack from "./FaqBack";
+import BackButton from "./BackButton";
 import FaqText from "./FaqText";
 import { CSSTransition } from "react-transition-group";
 import "./styles/slideY.css";
@@ -9,7 +9,7 @@ export default function FaqScreen({ faqHide, isFaq }) {
   return (
     <CSSTransition
       in={isFaq}
-      timeout={1400}
+      timeout={900}
       classNames="slideY"
       unmountOnExit={true}
       nodeRef={nodeRef}
@@ -25,7 +25,7 @@ export default function FaqScreen({ faqHide, isFaq }) {
         ref={nodeRef}
       >
         <FaqText />
-        <FaqBack faqHide={faqHide} />
+        <BackButton onClick={faqHide} />
       </div>
     </CSSTransition>
   );

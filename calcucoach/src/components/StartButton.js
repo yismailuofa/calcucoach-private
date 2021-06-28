@@ -1,4 +1,4 @@
-export default function StartButton({nextStep}) {
+export default function StartButton({onClick}) {
   return (
     <button
       style={{
@@ -17,7 +17,7 @@ export default function StartButton({nextStep}) {
         borderRadius: "30px",
         height: "100%",
       }}
-      onClick={nextStep}
+      onClick={onClick}
     >
       Start Your Journey
     </button>

@@ -1,12 +1,13 @@
-export default function FaqBack({faqHide}) {
-  return (
-    <div>
-      <button
+
+export default function MaleButton({onClick}) {
+    return (
+        <button
         style={{
-          marginTop: "4vh",
+          marginTop: "1vh",
           marginBottom: "-1vh",
-          fontSize: "3vh",
-          padding: "1.5vh",
+          fontSize: "4vh",
+          paddingLeft: "3vh",
+          paddingRight: "3vh",
           letterSpacing: "-0.06em",
           textDecoration: "none",
           fontFamily: "Poppins",
@@ -17,11 +18,11 @@ export default function FaqBack({faqHide}) {
           display: "flex",
           justifyContent: "center",
           borderRadius: "30px",
+          height: "100%",
         }}
-        onClick={faqHide}
+        onClick={onClick}
       >
-        Go Back
+        Male
       </button>
-    </div>
-  );
+    )
 }
