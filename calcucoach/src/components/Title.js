@@ -3,15 +3,13 @@ export default function Title() {
     <a
       href="."
       style={{
-        fontSize: "7vw",
+        fontSize: "max(45px,7vw)",
         letterSpacing: "-0.06em",
-        marginRight: "16vw",
-        marginLeft: "24vw",
         textDecoration: "none",
         color: "inherit",
         display: "flex",
         alignItems: "center",
-        height: "8vw"
+        height: "max(60px,8vw)"
       }}
     >
       calcucoach

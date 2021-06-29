@@ -6,7 +6,7 @@ export default function Header({faqShow}) {
     <div
       style={{
         width: "100vw",
-        height: "8vw",
+        height: "max(60px,8vw)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
