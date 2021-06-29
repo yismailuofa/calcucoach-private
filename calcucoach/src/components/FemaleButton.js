@@ -5,7 +5,7 @@ export default function FemaleButton({onClick}) {
         style={{
           marginTop: "1vh",
           marginBottom: "-1vh",
-          fontSize: "4vh",
+          fontSize: "3.5vh",
           paddingLeft: "3vh",
           paddingRight: "3vh",
           letterSpacing: "-0.06em",

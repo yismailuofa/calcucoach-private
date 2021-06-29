@@ -1810,5 +1810,29 @@
         { "name": "Plank", "freq": "3 x 1 min" }
       ]
     }
+  },
+  "maleProgramsList": {
+    "1": "Toning",
+    "2": "Fat Burner",
+    "3": "Beach Body",
+    "4": "Beast Mode",
+    "5": "Athlete",
+    "6": "All Around",
+    "7": "Beginner",
+    "8": "Strength",
+    "9": "Endurance",
+    "10": "Hollywood"
+  },
+  "femaleProgramsList": {
+    "1": "Toning",
+    "2": "Fat Burner",
+    "3": "Hourglass",
+    "4": "Beast Mode",
+    "5": "Athlete",
+    "6": "All Around",
+    "7": "Beginner",
+    "8": "Strength",
+    "9": "Endurance",
+    "10": "Hollywood"    
   }
 }

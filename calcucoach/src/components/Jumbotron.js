@@ -2,6 +2,7 @@ import banner from "../assets/banner.jpg";
 import StartText from "./StartText";
 import FaqScreen from "./FaqScreen";
 import GenderText from "./GenderText";
+import WorkoutStyles from "./WorkoutStyles";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -33,6 +34,12 @@ export default class Jumbotron extends Component {
     });
   };
 
+  setStyle = (style) => {
+    this.setState({
+      workoutStyle: style,
+    });
+  };
+
   render() {
     return (
       <div
@@ -58,6 +65,13 @@ export default class Jumbotron extends Component {
           nextStep={this.nextStep}
           prevStep={this.prevStep}
           setGender={this.setGender}
+          step={this.state.step}
+          isFaq={this.props.isFaq}
+        />
+        <WorkoutStyles
+          nextStep={this.nextStep}
+          prevStep={this.prevStep}
+          setStyle={this.setStyle}
           step={this.state.step}
           isFaq={this.props.isFaq}
         />

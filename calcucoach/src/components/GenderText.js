@@ -43,18 +43,23 @@ export default function GenderText({
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          position: "absolute", 
         }}
         ref={nodeRef}
       >
         <div
           style={{
-            fontSize: "4vh",
+            fontSize: "3.5vh",
             background:
               "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
-            padding: "4vh",
-            marginTop: "2vh",
+            paddingTop: "4vh",
+            paddingBottom: "4vh",
+            paddingRight: "2vh",
+            paddingLeft: "2vh",
+            marginTop: "1vh",
+            marginLeft: "2vh",
+            marginRight: "2vh",
             borderRadius: "4vh",
-            justifyText: "center",
             boxShadow: "0vw 5px 20px black",
           }}
         >
