@@ -3,13 +3,13 @@ export default function Title() {
     <a
       href="."
       style={{
-        fontSize: "max(45px,7vw)",
+        fontSize: "max(40px,7vw)",
         letterSpacing: "-0.06em",
         textDecoration: "none",
         color: "inherit",
         display: "flex",
         alignItems: "center",
-        height: "max(60px,8vw)"
+        height: "max(50px,8vw)"
       }}
     >
       calcucoach
