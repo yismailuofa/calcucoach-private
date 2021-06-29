@@ -65,9 +65,9 @@ export default function WorkoutStyles({
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(3,auto)",
-            justifyContent: "center",
-            justifyText: "center",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            height: "60vh",
+            width: "100vw"
           }}
         >
           {Object.keys(programs.maleProgramsList).map((key) => (
