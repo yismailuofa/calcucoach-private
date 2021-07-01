@@ -2,34 +2,9 @@ import { useRef, useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import BackButton from "./BackButton";
 import programs from "../programs.json";
-import WorkoutBox from "./WorkoutBox";
+import WorkoutContainer from "./WorkoutContainer";
 import "./styles/slideX.css";
-import "./styles/scrollbar.css"
-import fatBurner from "../assets/fatBurner.svg";
-import hollywood from "../assets/hollywood.svg";
-import beachBody from "../assets/beachBody.svg";
-import hourglass from "../assets/hourglass.svg";
-import athlete from "../assets/athlete.svg";
-import endurance from "../assets/endurance.svg";
-import strength from "../assets/strength.svg";
-import beginner from "../assets/beginner.svg";
-import balanced from "../assets/balanced.svg";
-import toning from "../assets/toning.svg";
-import beastMode from "../assets/beastMode.svg";
-
-const imgMapping = {
-  Toning: toning,
-  "Fat Burner": fatBurner,
-  "Beach Body": beachBody,
-  "Beast Mode": beastMode,
-  Athlete: athlete,
-  Balanced: balanced,
-  Beginner: beginner,
-  Strength: strength,
-  Endurance: endurance,
-  Hollywood: hollywood,
-  Hourglass: hourglass,
-};
+import info from "../assets/info.svg";
 
 export default function WorkoutStyles({
   nextStep,
@@ -38,6 +13,8 @@ export default function WorkoutStyles({
   step,
   isFaq,
   gender,
+  isWorkoutInfo,
+  workoutInfoShow,
 }) {
   const [animationDirection, setanimationDirection] = useState("slideXmiddle");
   const nodeRef = useRef(null);
@@ -51,7 +28,7 @@ export default function WorkoutStyles({
 
   return (
     <CSSTransition
-      in={step === 2 && !isFaq}
+      in={step === 2 && !isFaq && !isWorkoutInfo}
       timeout={900}
       classNames={animationDirection}
       unmountOnExit={true}
@@ -77,43 +54,32 @@ export default function WorkoutStyles({
             background:
               "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
             paddingTop: "4vh",
-            paddingBottom: "2vh",
+            paddingBottom: "3vh",
             paddingRight: "1vh",
             paddingLeft: "1vh",
             marginLeft: "3vh",
             marginRight: "3vh",
             marginBottom: "2vh",
             borderRadius: "4vh",
-            display: "flex",
-            flexDirection: "column",
             textAlign: "center",
             boxShadow: "0vw 5px 20px black",
           }}
         >
           What is your workout style?
-          <div style={{ fontSize: "2vh"}}>Up to 10 available! ⬇️</div>
+          <img
+            alt="info"
+            src={info}
+            style={{
+              height: "3.5vh",
+              width: "3.5vh",
+              marginBottom: "-.5vh",
+              marginLeft: "1vh",
+              cursor: "pointer"
+            }}
+            onClick={workoutInfoShow}
+          ></img>
         </div>
-        <div
-          style={{
-            height: "54vh",
-            width: "89vw",
-            marginBottom: "-2vh",
-            overflowY: "scroll",
-            overscrollBehavior: "contain",
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-          }}
-          className="customScroll"
-        >
-          {Object.keys(programList).map((key) => (
-            <WorkoutBox
-              key={key}
-              img={imgMapping[programList[key]]}
-              name={programList[key]}
-            />
-          ))}
-        </div>
+        <WorkoutContainer programList={programList} />
         <BackButton onClick={handleBack} />
       </div>
     </CSSTransition>

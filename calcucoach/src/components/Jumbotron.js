@@ -3,6 +3,7 @@ import StartText from "./StartText";
 import FaqScreen from "./FaqScreen";
 import GenderText from "./GenderText";
 import WorkoutStyles from "./WorkoutStyles";
+import WorkoutInfo from "./WorkoutInfo";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -13,6 +14,7 @@ export default class Jumbotron extends Component {
       gender: "male",
       workoutStyle: 0,
       workoutDays: 3,
+      isWorkoutInfo: false,
     };
   }
 
@@ -37,6 +39,18 @@ export default class Jumbotron extends Component {
   setStyle = (style) => {
     this.setState({
       workoutStyle: style,
+    });
+  };
+
+  workoutInfoHide = (e) => {
+    this.setState({
+      isWorkoutInfo: false,
+    });
+  };
+
+  workoutInfoShow = (e) => {
+    this.setState({
+      isWorkoutInfo: true,
     });
   };
 
@@ -75,6 +89,13 @@ export default class Jumbotron extends Component {
           step={this.state.step}
           isFaq={this.props.isFaq}
           gender={this.state.gender}
+          isWorkoutInfo={this.state.isWorkoutInfo}
+          workoutInfoShow={this.workoutInfoShow}
+        />
+        <WorkoutInfo
+          isWorkoutInfo={this.state.isWorkoutInfo}
+          isFaq={this.props.isFaq}
+          workoutInfoHide={this.workoutInfoHide}
         />
       </div>
     );

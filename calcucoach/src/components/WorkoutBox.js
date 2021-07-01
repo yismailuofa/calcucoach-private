@@ -21,7 +21,7 @@ export default function WorkoutBox({img, name}) {
     >
       <img
         src={img}
-        alt="test"
+        alt={name}
         style={{
           height: "9vw",
           width: "9vw",
