@@ -2,7 +2,9 @@ import { useRef, useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import BackButton from "./BackButton";
 import programs from "../programs.json";
+import WorkoutBox from "./WorkoutBox";
 import "./styles/slideX.css";
+import "./styles/scrollbar.css"
 import fatBurner from "../assets/fatBurner.svg";
 import hollywood from "../assets/hollywood.svg";
 import beachBody from "../assets/beachBody.svg";
@@ -16,17 +18,17 @@ import toning from "../assets/toning.svg";
 import beastMode from "../assets/beastMode.svg";
 
 const imgMapping = {
-  "Toning": toning,
+  Toning: toning,
   "Fat Burner": fatBurner,
   "Beach Body": beachBody,
   "Beast Mode": beastMode,
-  "Athlete": athlete,
-  "Balanced": balanced,
-  "Beginner": beginner,
-  "Strength": strength,
-  "Endurance": endurance,
-  "Hollywood": hollywood,
-  "Hourglass": hourglass,
+  Athlete: athlete,
+  Balanced: balanced,
+  Beginner: beginner,
+  Strength: strength,
+  Endurance: endurance,
+  Hollywood: hollywood,
+  Hourglass: hourglass,
 };
 
 export default function WorkoutStyles({
@@ -89,58 +91,27 @@ export default function WorkoutStyles({
           }}
         >
           What is your workout style?
-          <div style={{ fontSize: "2vh" }}>Up to 10 available!</div>
+          <div style={{ fontSize: "2vh"}}>Up to 10 available! ⬇️</div>
         </div>
         <div
           style={{
-            height: "52vh",
+            height: "54vh",
             width: "89vw",
-            paddingBottom: "1vh",
+            marginBottom: "-2vh",
             overflowY: "scroll",
             overscrollBehavior: "contain",
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            WebkitMaskImage:
-              "linear-gradient(to bottom, black 97%, transparent 100%)",
-            maskImage:
-              "linear-gradient(to bottom, black 97%, transparent 100%)",
           }}
+          className="customScroll"
         >
           {Object.keys(programList).map((key) => (
-            <div
+            <WorkoutBox
               key={key}
-              style={{
-                background:
-                  "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
-                margin: "1vh",
-                padding: "1vh",
-                borderRadius: "10px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                fontSize: "1vh",
-                height: "calc(485px - 21vw)",
-                width: "calc(485px - 21vw)",
-                maxHeight: "250px",
-                maxWidth: "250px",
-              }}
-            >
-              <img
-                src={imgMapping[programList[key]]}
-                alt="test"
-                style={{
-                  height: "calc(485px - 25vw)",
-                  width: "calc(485px - 25vw)",
-                  maxHeight: "170px",
-                  maxWidth: "170px",
-                  marginBottom: "0.5vw",
-                  objectFit: "fit",
-                }}
-              ></img>
-              <div style={{ fontSize: "2.5vh" }}>{programList[key]}</div>
-            </div>
+              img={imgMapping[programList[key]]}
+              name={programList[key]}
+            />
           ))}
         </div>
         <BackButton onClick={handleBack} />

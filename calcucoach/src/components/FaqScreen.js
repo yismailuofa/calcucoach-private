@@ -18,7 +18,6 @@ export default function FaqScreen({ faqHide, isFaq }) {
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
           alignItems: "center",
           position: "absolute",
         }}

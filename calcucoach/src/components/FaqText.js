@@ -1,9 +1,11 @@
+import "./styles/scrollbar.css"
+
 export default function FaqText() {
   return (
     <div
       style={{
         fontSize: "3vh",
-        width: "80vw",
+        width: "75vw",
         maxHeight: "55vh",
         background:
           "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
@@ -14,9 +16,10 @@ export default function FaqText() {
         position: "relative",
         justifyText: "center",
         boxShadow: "0vw 5px 20px black",
-        overflow: "auto",
-        overscrollBehavior: "contain"
-      }}
+        overflowY: "scroll",
+        overscrollBehavior: "contain",        
+        }}
+      className="customScroll"
     >
       Q: What does A x B mean?
       <br />
