@@ -28,7 +28,7 @@ const imgMapping = {
     Hourglass: hourglass,
   };
 
-export default function WorkoutContainer({programList}) {
+export default function WorkoutContainer({programList, handleStyle}) {
     return (
         <div
         style={{
@@ -48,6 +48,7 @@ export default function WorkoutContainer({programList}) {
             key={key}
             img={imgMapping[programList[key]]}
             name={programList[key]}
+            handleStyle={() => handleStyle(key)}
           />
         ))}
       </div>

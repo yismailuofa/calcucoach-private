@@ -1,4 +1,4 @@
-export default function WorkoutBox({img, name}) {
+export default function WorkoutBox({img, name, handleStyle}) {
   return (
     <div
       style={{
@@ -17,7 +17,9 @@ export default function WorkoutBox({img, name}) {
         minHeight: "190px",
         minWidth: "190px",
         textAlign: "center",
+        cursor: "pointer"
       }}
+      onClick={handleStyle}
     >
       <img
         src={img}

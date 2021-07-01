@@ -26,6 +26,11 @@ export default function WorkoutStyles({
     prevStep();
   };
 
+  const handleStyle = (style) => {
+    setStyle(style);
+    nextStep();
+  };
+
   return (
     <CSSTransition
       in={step === 2 && !isFaq && !isWorkoutInfo}
@@ -74,12 +79,12 @@ export default function WorkoutStyles({
               width: "3.5vh",
               marginBottom: "-.5vh",
               marginLeft: "1vh",
-              cursor: "pointer"
+              cursor: "pointer",
             }}
             onClick={workoutInfoShow}
           ></img>
         </div>
-        <WorkoutContainer programList={programList} />
+        <WorkoutContainer programList={programList} handleStyle={handleStyle}/>
         <BackButton onClick={handleBack} />
       </div>
     </CSSTransition>

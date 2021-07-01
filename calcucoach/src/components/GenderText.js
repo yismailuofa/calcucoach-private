@@ -20,7 +20,7 @@ export default function GenderText({
     prevStep();
   };
 
-  const handleChoice = (gender) => {
+  const handleGender = (gender) => {
     setGender(gender);
     nextStep();
   };
@@ -71,8 +71,8 @@ export default function GenderText({
               marginBottom: "1vh",
             }}
           >
-            <MaleButton onClick={() => handleChoice("male")}/>
-            <FemaleButton onClick={() => handleChoice("female")}/>
+            <MaleButton onClick={() => handleGender("male")}/>
+            <FemaleButton onClick={() => handleGender("female")}/>
           </div>
         </div>
         <BackButton onClick={handleBack} />
