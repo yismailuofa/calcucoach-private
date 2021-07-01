@@ -74,6 +74,7 @@ export default class Jumbotron extends Component {
           setStyle={this.setStyle}
           step={this.state.step}
           isFaq={this.props.isFaq}
+          gender={this.state.gender}
         />
       </div>
     );

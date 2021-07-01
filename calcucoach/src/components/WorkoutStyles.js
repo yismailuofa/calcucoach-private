@@ -3,6 +3,31 @@ import { CSSTransition } from "react-transition-group";
 import BackButton from "./BackButton";
 import programs from "../programs.json";
 import "./styles/slideX.css";
+import fatBurner from "../assets/fatBurner.svg";
+import hollywood from "../assets/hollywood.svg";
+import beachBody from "../assets/beachBody.svg";
+import hourglass from "../assets/hourglass.svg";
+import athlete from "../assets/athlete.svg";
+import endurance from "../assets/endurance.svg";
+import strength from "../assets/strength.svg";
+import beginner from "../assets/beginner.svg";
+import balanced from "../assets/balanced.svg";
+import toning from "../assets/toning.svg";
+import beastMode from "../assets/beastMode.svg";
+
+const imgMapping = {
+  "Toning": toning,
+  "Fat Burner": fatBurner,
+  "Beach Body": beachBody,
+  "Beast Mode": beastMode,
+  "Athlete": athlete,
+  "Balanced": balanced,
+  "Beginner": beginner,
+  "Strength": strength,
+  "Endurance": endurance,
+  "Hollywood": hollywood,
+  "Hourglass": hourglass,
+};
 
 export default function WorkoutStyles({
   nextStep,
@@ -10,9 +35,12 @@ export default function WorkoutStyles({
   setStyle,
   step,
   isFaq,
+  gender,
 }) {
   const [animationDirection, setanimationDirection] = useState("slideXmiddle");
   const nodeRef = useRef(null);
+  const programList =
+    gender === "male" ? programs.maleProgramsList : programs.femaleProgramsList;
 
   const handleBack = () => {
     setanimationDirection("slideXfront");
@@ -47,12 +75,12 @@ export default function WorkoutStyles({
             background:
               "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
             paddingTop: "4vh",
-            paddingBottom: "4vh",
+            paddingBottom: "2vh",
             paddingRight: "1vh",
             paddingLeft: "1vh",
-            marginTop: "1vh",
             marginLeft: "3vh",
             marginRight: "3vh",
+            marginBottom: "2vh",
             borderRadius: "4vh",
             display: "flex",
             flexDirection: "column",
@@ -61,16 +89,25 @@ export default function WorkoutStyles({
           }}
         >
           What is your workout style?
+          <div style={{ fontSize: "2vh" }}>Up to 10 available!</div>
         </div>
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-            height: "60vh",
-            width: "100vw"
+            height: "52vh",
+            width: "89vw",
+            paddingBottom: "1vh",
+            overflowY: "scroll",
+            overscrollBehavior: "contain",
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            WebkitMaskImage:
+              "linear-gradient(to bottom, black 97%, transparent 100%)",
+            maskImage:
+              "linear-gradient(to bottom, black 97%, transparent 100%)",
           }}
         >
-          {Object.keys(programs.maleProgramsList).map((key) => (
+          {Object.keys(programList).map((key) => (
             <div
               key={key}
               style={{
@@ -84,15 +121,25 @@ export default function WorkoutStyles({
                 justifyContent: "center",
                 alignItems: "center",
                 fontSize: "1vh",
+                height: "calc(485px - 21vw)",
+                width: "calc(485px - 21vw)",
+                maxHeight: "250px",
+                maxWidth: "250px",
               }}
             >
               <img
-                src="https://cdn.iconscout.com/icon/free/png-256/barbell-dumbbell-dumbell-fitness-gym-weight-weightlifting-6-17867.png"
+                src={imgMapping[programList[key]]}
                 alt="test"
-                height="64px"
-                width="64px"
+                style={{
+                  height: "calc(485px - 25vw)",
+                  width: "calc(485px - 25vw)",
+                  maxHeight: "170px",
+                  maxWidth: "170px",
+                  marginBottom: "0.5vw",
+                  objectFit: "fit",
+                }}
               ></img>
-              {programs.maleProgramsList[key]}
+              <div style={{ fontSize: "2.5vh" }}>{programList[key]}</div>
             </div>
           ))}
         </div>

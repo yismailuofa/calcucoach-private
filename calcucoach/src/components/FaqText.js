@@ -15,6 +15,7 @@ export default function FaqText() {
         justifyText: "center",
         boxShadow: "0vw 5px 20px black",
         overflow: "auto",
+        overscrollBehavior: "contain"
       }}
     >
       Q: What does A x B mean?
@@ -58,22 +59,23 @@ export default function FaqText() {
       Q: What is a Dropset?
       <br />
       <div style={{ fontSize: "2.5vh" }}>
-        A: Dropset is the continuation of reps when muscle failure is acheieved through
-      dropping the weight.
+        A: A Dropset is when you perform another set after your main one with less weight to push
+        your muscle even harder.
       </div>
       <br />
       Q: What is HIIT?
       <br />
       <div style={{ fontSize: "2.5vh" }}>
         A: HIIT stands for High Intensity Interval Training. For this type of workout,
-      high intensity has to be maintained in a short interval to get the heart rate high.
+      you exercise in cycles of high intensity for a short interval followed by a slower pace 
+      to get the heart rate high.
       </div>
       <br />
       Q: What is Explosive Training?
       <br />
       <div style={{ fontSize: "2.5vh" }}>
         A: Explosive Training is when the reps are done in an explosive manner. This means that
-      the push/pull moevment is done as fast and powerful as possible followed by a slow return
+      the push/pull movement is done as fast and powerful as possible followed by a slow return
       to the initial position. 
       </div>
       <br />
@@ -83,6 +85,11 @@ export default function FaqText() {
         A: No, the days are just a recommendation to allow for recovery. Feel free to make your
       own custom schedule.
       </div>
+      <br />
+      <div style={{ fontSize: "2.5vh", textAlign: "center" }}>
+      Developed in Edmonton by Youssef Ismail and Kourosh Kehtari.
+      </div>
+       
     </div>
   );
 }
