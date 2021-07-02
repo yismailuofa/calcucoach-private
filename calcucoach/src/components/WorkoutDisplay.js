@@ -1,17 +1,17 @@
 import { useRef, useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import BackButton from "./BackButton";
-import ThreeButton from "./ThreeButton";
-import FourButton from "./FourButton";
-import FiveButton from "./FiveButton";
 import "./styles/slideX.css";
+import programs from "../programs.json";
 
-export default function WorkoutDays({
-  nextStep,
+
+export default function WorkoutDisplay({
   prevStep,
-  setDay,
   step,
   isFaq,
+  gender,
+  workoutStyle,
+  workoutDays,
 }) {
   const [animationDirection, setanimationDirection] = useState("slideXmiddle");
   const nodeRef = useRef(null);
@@ -21,14 +21,12 @@ export default function WorkoutDays({
     prevStep();
   };
 
-  const handleDays = (day) => {
-    setDay(day);
-    nextStep();
-  };
+  const workoutDict = programs[`${gender}Programs${workoutDays}`][workoutStyle];
+
 
   return (
     <CSSTransition
-      in={step === 3 && !isFaq}
+      in={step === 4 && !isFaq}
       timeout={900}
       classNames={animationDirection}
       unmountOnExit={true}
@@ -51,34 +49,38 @@ export default function WorkoutDays({
         <div
           style={{
             fontSize: "4vh",
-            background:
-              "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
-            padding: "4vh",
             marginTop: "-10vh",
-            borderRadius: "4vh",
-            boxShadow: "0vw 5px 20px black",
             display: "flex",
             flexDirection: "column",
-            textAlign: "center",
+            textAlign: "left",
             alignItems: "center",
-            width: "63vw",
+            overflowY: "scroll",
+            height: "60vh",
           }}
         >
-          How many days do you want to workout?
-          <div
+          {Object.keys(workoutDict).map((key) => (
+            <div 
             style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              marginBottom: "1vh",
-              flexWrap: "wrap",
-              alignItems: "center"
+                background:
+                "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",  
+                width: "90vw",
+                margin: "13px",
+                borderRadius: "4vh",
+                boxShadow: "0vw 2px 10px black",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                maxWidth: "700px",
+                fontSize: "clamp(16px,3.5vw,32px)", 
+                border: "5px solid white"
             }}
-          >
-            <ThreeButton onClick={() => handleDays(3)} />
-            <FourButton onClick={() => handleDays(4)} />
-            <FiveButton onClick={() => handleDays(5)} />
-          </div>
+            key={key}>
+              <div style={{fontSize: "clamp(20px,4.5vw,43px)" }}>{key}</div>
+              <ul style={{marginTop: "-1px"}}>
+              {workoutDict[key].map((workout, index) => <li key={index}>{workout.name}: {workout.freq}</li>)}
+              </ul>
+            </div>
+          ))}
         </div>
         <BackButton onClick={handleBack} />
       </div>

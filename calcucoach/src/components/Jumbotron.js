@@ -5,6 +5,7 @@ import GenderText from "./GenderText";
 import WorkoutStyles from "./WorkoutStyles";
 import WorkoutInfo from "./WorkoutInfo";
 import WorkoutDays from "./WorkoutDays";
+import WorkoutDisplay from "./WorkoutDisplay";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -13,7 +14,7 @@ export default class Jumbotron extends Component {
     this.state = {
       step: 0,
       gender: "male",
-      workoutStyle: 0,
+      workoutStyle: "7",
       workoutDays: 3,
       isWorkoutInfo: false,
     };
@@ -110,6 +111,14 @@ export default class Jumbotron extends Component {
           setDay={this.setDay}
           step={this.state.step}
           isFaq={this.props.isFaq}
+        />
+        <WorkoutDisplay
+          prevStep={this.prevStep}
+          step={this.state.step}
+          isFaq={this.props.isFaq}
+          gender={this.state.gender}
+          workoutStyle={this.state.workoutStyle}
+          workoutDays={this.state.workoutDays}
         />
       </div>
     );
