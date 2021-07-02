@@ -4,6 +4,7 @@ import FaqScreen from "./FaqScreen";
 import GenderText from "./GenderText";
 import WorkoutStyles from "./WorkoutStyles";
 import WorkoutInfo from "./WorkoutInfo";
+import WorkoutDays from "./WorkoutDays";
 import { Component } from "react";
 
 export default class Jumbotron extends Component {
@@ -54,6 +55,12 @@ export default class Jumbotron extends Component {
     });
   };
 
+  setDay = (day) => {
+    this.setState({
+      workoutDays: day,
+    });
+  };
+
   render() {
     return (
       <div
@@ -96,6 +103,13 @@ export default class Jumbotron extends Component {
           isWorkoutInfo={this.state.isWorkoutInfo}
           isFaq={this.props.isFaq}
           workoutInfoHide={this.workoutInfoHide}
+        />
+        <WorkoutDays
+          nextStep={this.nextStep}
+          prevStep={this.prevStep}
+          setDay={this.setDay}
+          step={this.state.step}
+          isFaq={this.props.isFaq}
         />
       </div>
     );
