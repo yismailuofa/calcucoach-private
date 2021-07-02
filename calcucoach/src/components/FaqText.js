@@ -17,9 +17,10 @@ export default function FaqText() {
         justifyText: "center",
         boxShadow: "0vw 5px 20px black",
         overflowY: "scroll",
-        overscrollBehavior: "contain",        
+        overscrollBehavior: "contain",     
+        marginTop: "max(-21vw,-20px)",
         }}
-      className="customScroll"
+      className="customScroll textBox"
     >
       Q: What does A x B mean?
       <br />

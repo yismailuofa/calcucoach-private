@@ -4,6 +4,7 @@ import BackButton from "./BackButton";
 import programs from "../programs.json";
 import WorkoutContainer from "./WorkoutContainer";
 import "./styles/slideX.css";
+import "./styles/workoutStyles.css";
 import info from "../assets/info.svg";
 
 export default function WorkoutStyles({
@@ -68,7 +69,9 @@ export default function WorkoutStyles({
             borderRadius: "4vh",
             textAlign: "center",
             boxShadow: "0vw 5px 20px black",
+            marginTop: "-1vw",
           }}
+          className="workoutQuestion"
         >
           What is your workout style?
           <img

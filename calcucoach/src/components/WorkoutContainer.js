@@ -13,6 +13,7 @@ import balanced from "../assets/balanced.svg";
 import toning from "../assets/toning.svg";
 import beastMode from "../assets/beastMode.svg";
 import "./styles/scrollbar.css";
+import "./styles/workoutStyles.css";
 
 const imgMapping = {
     Toning: toning,
@@ -41,7 +42,7 @@ export default function WorkoutContainer({programList, handleStyle}) {
           flexWrap: "wrap",
           justifyContent: "center",
         }}
-        className="customScroll"
+        className="customScroll workoutContainer"
       >
         {Object.keys(programList).map((key) => (
           <WorkoutBox

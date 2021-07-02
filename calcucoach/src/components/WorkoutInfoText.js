@@ -18,9 +18,10 @@ export default function WorkoutInfoText() {
         boxShadow: "0vw 5px 20px black",
         overflowY: "scroll",
         overscrollBehavior: "contain",
-        minWidth: "270px"
+        minWidth: "270px",
+        marginTop: "max(-21vw,-20px)",
       }}
-      className="customScroll"
+      className="customScroll textBox"
     >
       Toning:
       <br />
