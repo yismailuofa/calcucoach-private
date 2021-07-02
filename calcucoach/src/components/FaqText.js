@@ -90,8 +90,36 @@ export default function FaqText() {
       own custom schedule.
       </div>
       <br />
+      Q: Why are there only two options for gender?
+      <br />
+      <div style={{ fontSize: "2.5vh" }}>
+        A: These two options simply indicate the nature of the workouts you will be doing and the
+        bodyparts they target. This question is purely to determine the bodytype you are working towards.
+      </div>
+      <br />
+      Q: Do you guys collect data on us?
+      <br />
+      <div style={{ fontSize: "2.5vh" }}>
+        A: Nope! We don't store any data on our users and your privacy is our utmost concern.
+      </div>
+      <br />
+      <div style={{ fontSize: "2vh", textAlign: "center" }}>
+      Calcucoach is not responsible or liable for any advice, 
+      workout programs, or any other information, 
+      services or products that you obtain through this site. 
+       You are encouraged to consult with your doctor with regard to this information 
+       contained on or through this website. 
+       After reading articles, watching videos or reading other 
+       content from this website, you are encouraged to review the 
+       information carefully with your professional healthcare provider.
+
+      </div>
+      <br />
       <div style={{ fontSize: "2.5vh", textAlign: "center" }}>
-      Developed in Edmonton by Youssef Ismail and Kourosh Kehtari.
+      Developed in Edmonton by  
+      <a href="https://www.linkedin.com/in/youssefismailuofa/" style={{textDecoration: "none", color: "white"}}> Youssef Ismail </a>
+       and 
+       <a href="https://www.linkedin.com/in/kourosh-kehtari-889aa6203/" style={{textDecoration: "none", color: "white"}}> Kourosh Kehtari.</a>
       </div>
        
     </div>
