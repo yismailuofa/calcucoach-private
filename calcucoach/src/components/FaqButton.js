@@ -15,6 +15,7 @@ export default function FaqButton({onClick}) {
         cursor: "pointer",
         position: "absolute",
         left: "85%",
+        paddingRight: "0"
       }}
       onClick={onClick}
     >
