@@ -64,7 +64,7 @@ export default function WorkoutDays({
             width: "63vw",
           }}
         >
-          How many days do you want to workout?
+          How many days a week do you want to workout?
           <div
             style={{
               display: "flex",

@@ -57,7 +57,7 @@ export default function FaqText() {
       <div style={{ fontSize: "2.5vh" }}>
         A: Pyramid sets are a style of workout where you ramp to your max and then ramp down
     similar to a pyramid. If you have 5 x 5 as your frequency, you will build to your max
-    weight in 2 sets, do you max for 1 set, and break down the weight for the last two sets.
+    weight in 2 sets, do your max for 1 set, and turn down the weight for the last two sets.
       </div>
       <br />
       Q: What is a Dropset?
@@ -71,8 +71,8 @@ export default function FaqText() {
       <br />
       <div style={{ fontSize: "2.5vh" }}>
         A: HIIT stands for High Intensity Interval Training. For this type of workout,
-      you exercise in cycles of high intensity for a short interval followed by a slower pace 
-      to get the heart rate high.
+      you exercise at a high intensity for a short interval followed by lower intensity  
+      for a longer interval. This helps to get the heart rate high and burn calories.
       </div>
       <br />
       Q: What is Explosive Training?
@@ -83,7 +83,7 @@ export default function FaqText() {
       to the initial position. 
       </div>
       <br />
-      Q: Do I have to follow the days?
+      Q: Do I have to follow the weekdays given?
       <br />
       <div style={{ fontSize: "2.5vh" }}>
         A: No, the days are just a recommendation to allow for recovery. Feel free to make your
@@ -106,20 +106,17 @@ export default function FaqText() {
       <div style={{ fontSize: "2vh", textAlign: "center" }}>
       Calcucoach is not responsible or liable for any advice, 
       workout programs, or any other information, 
-      services or products that you obtain through this site. 
-       You are encouraged to consult with your doctor with regard to this information 
-       contained on or through this website. 
-       After reading articles, watching videos or reading other 
-       content from this website, you are encouraged to review the 
-       information carefully with your professional healthcare provider.
-
+      that you obtain through this site. 
+      We are not medical health practitioners or mental health 
+      providers and we are not holding ourselves out to be in any capacity. 
+      Rather, we serve as coaches, mentors and guides who help you reach your own health and wellness goals.
       </div>
       <br />
       <div style={{ fontSize: "2.5vh", textAlign: "center" }}>
-      Developed in Edmonton by  
-      <a href="https://www.linkedin.com/in/youssefismailuofa/" style={{textDecoration: "none", color: "white"}}> Youssef Ismail </a>
-       and 
-       <a href="https://www.linkedin.com/in/kourosh-kehtari-889aa6203/" style={{textDecoration: "none", color: "white"}}> Kourosh Kehtari.</a>
+      Developed in Edmonton by&nbsp;
+      <a href="https://www.linkedin.com/in/youssefismailuofa/" style={{ color: "white"}}>Youssef Ismail</a>
+      &nbsp;and&nbsp; 
+       <a href="https://www.linkedin.com/in/kourosh-kehtari-889aa6203/" style={{color: "white"}}>Kourosh Kehtari.</a>
       </div>
        
     </div>
