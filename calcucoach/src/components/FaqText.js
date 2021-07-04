@@ -97,6 +97,14 @@ export default function FaqText() {
         bodyparts they target. This question is purely to determine the bodytype you are working towards.
       </div>
       <br />
+      Q: How are the workouts generated?
+      <br />
+      <div style={{ fontSize: "2.5vh" }}>
+        A: The workouts are generated based on the answers you provide us and calculated accordingly.
+        The exercises are developed through a number of resources including our years of training experience,
+        fitness professionals and scientific literature.
+      </div>
+      <br />
       Q: Do you guys collect data on us?
       <br />
       <div style={{ fontSize: "2.5vh" }}>
