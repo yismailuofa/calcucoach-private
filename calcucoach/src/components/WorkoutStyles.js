@@ -6,6 +6,19 @@ import WorkoutContainer from "./WorkoutContainer";
 import "./styles/slideX.css";
 import "./styles/workoutStyles.css";
 import info from "../assets/info.svg";
+// 1. Toning: Uncover the muscle beneath.
+// 2. Fat Burner: Burn fat quickly and easily.
+// 3. Beach Body: Look good on and off the beach.
+// 4. Gender:
+//     Male-> Beast mode: You will go HARD. Not for the light-hearted.
+//     Female-> Hourglass: Get the hourglass figure you deserve. 
+// 5. Athlete: Get conditioned and reach the top of your game.  
+// 6. All Around: A healthy balance of all workouts.
+// 7. Beginner: Recommended for beginners new to the gym and working out.
+// 8. Strength: Focus on strength and form.
+// 9. Endurance: Enhance the body and the mind.
+// 10. Hollywood: Train like the celebrities with curated workouts.
+
 
 export default function WorkoutStyles({
   nextStep,

@@ -24,7 +24,7 @@ export default function WorkoutDisplay({
 
   return (
     <CSSTransition
-      in={step === 4 && !isFaq}
+      in={step === 5 && !isFaq}
       timeout={900}
       classNames={animationDirection}
       unmountOnExit={true}
@@ -56,19 +56,6 @@ export default function WorkoutDisplay({
             height: "60vh",
           }}
         >
-          <div
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
-              borderRadius: "4vh",
-              padding: "2vh",
-              fontSize: "3vh",
-              textAlign: "center",
-              width: "clamp(260px,80vw,700px)"
-            }}
-          >
-            Congrats! Here is your custom training plan.
-          </div>
           {Object.keys(workoutDict).map((key) => (
             <div
               style={{
