@@ -79,7 +79,7 @@ export default function WorkoutStyles({
             marginLeft: "3vh",
             marginRight: "3vh",
             marginBottom: "2vh",
-            borderRadius: "4vh",
+            borderRadius: "30px",
             textAlign: "center",
             boxShadow: "0vw 5px 20px black",
             marginTop: "-1vw",

@@ -10,7 +10,7 @@ export default function WorkoutInfoText() {
         background:
           "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
         padding: "4vh",
-        borderRadius: "4vh",
+        borderRadius: "30px",
         display: "flex",
         flexDirection: "column",
         position: "relative",

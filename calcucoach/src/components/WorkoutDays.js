@@ -55,7 +55,7 @@ export default function WorkoutDays({
               "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
             padding: "4vh",
             marginTop: "-10vh",
-            borderRadius: "4vh",
+            borderRadius: "30px",
             boxShadow: "0vw 5px 20px black",
             display: "flex",
             flexDirection: "column",

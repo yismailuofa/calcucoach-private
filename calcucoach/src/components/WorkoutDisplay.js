@@ -63,7 +63,7 @@ export default function WorkoutDisplay({
                   "linear-gradient(180deg, rgba(74,134,186,1) 50%, rgba(51,96,136,1) 100%)",
                 width: "90vw",
                 margin: "13px",
-                borderRadius: "4vh",
+                borderRadius: "30px",
                 boxShadow: "0vw 2px 10px black",
                 display: "flex",
                 flexDirection: "column",

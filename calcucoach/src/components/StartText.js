@@ -24,7 +24,7 @@ export default function StartText({ nextStep, step, isFaq }) {
           padding: "4vh",
           paddingTop: "2vh",
           marginTop: "-4vh",
-          borderRadius: "4vh",
+          borderRadius: "30px",
           display: "flex",
           flexDirection: "column",
           position: "absolute",
