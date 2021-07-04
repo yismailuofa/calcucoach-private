@@ -29,7 +29,7 @@
         { "name": "Burpees", "freq": "3 x 10" },
         { "name": "Dumbbell Chest Flyes", "freq": "3 x 15" },
         { "name": "Dumbbell Side Lateral Raise", "freq": "3 x 15" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 15" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 15" }
       ],
       "Wednesday": [
         { "name": "Exercise Bike Medium Intensity", "freq": "15 min" },
@@ -52,7 +52,7 @@
         { "name": "Dumbbell Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Shoulder Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 10" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 10" }
       ],
       "Wednesday": [
         { "name": "Seated Cable Row", "freq": "3 x 10" },
@@ -71,7 +71,7 @@
     },
     "4": {
       "Monday": [
-        { "name": "Dumbbell Bench Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Dumbbell Bench Press Pyramid", "freq": "5 x 8" },
         { "name": "Dumbbell Incline Bench Press", "freq": "5 x 5" },
         { "name": "Arnold Dumbbell Press", "freq": "3 x 12" },
         { "name": "Barbell Skullcrushers", "freq": "3 x 12" },
@@ -86,7 +86,7 @@
       ],
       "Friday": [
         { "name": "Treadmill HIIT", "freq": "15 min" },
-        { "name": "Machine Leg Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Machine Leg Press Pyramid", "freq": "5 x 8" },
         { "name": "Barbell Squat", "freq": "3 x 8" },
         { "name": "Hanging Leg Raise", "freq": "3 x 15" },
         { "name": "Plank", "freq": "3 x 1.5 min" }
@@ -166,7 +166,7 @@
         { "name": "Barbell Bench Press", "freq": "4 x 8" },
         { "name": "Barbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Barbell Miltary Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "4 x 8" },
+        { "name": "Dumbbell Tricep Extension", "freq": "4 x 8" },
         { "name": "Tricep Rope Pushdown", "freq": "3 x 10" }
       ],
       "Wednesday": [
@@ -268,7 +268,7 @@
         { "name": "Burpees", "freq": "3 x 10" },
         { "name": "Incline Cable Chest Flyes", "freq": "3 x 15" },
         { "name": "Dumbbell Chest Flyes", "freq": "3 x 15" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 15" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 15" }
       ],
       "Tuesday": [
         { "name": "Exercise Bike Medium Intensity", "freq": "15 min" },
@@ -297,7 +297,7 @@
         { "name": "Barbell Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Incline Bench Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 10" },
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 10" },
         { "name": "Tricep Dips", "freq": "3 x 8" }
       ],
       "Tuesday": [
@@ -324,7 +324,7 @@
     },
     "4": {
       "Monday": [
-        { "name": "Dumbbell Bench Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Dumbbell Bench Press Pyramid", "freq": "5 x 8" },
         { "name": "Dumbbell Incline Bench Press", "freq": "5 x 5" },
         { "name": "Barbell Skullcrushers", "freq": "3 x 12" },
         { "name": "Tricep Rope Pushdown", "freq": "3 x 12" },
@@ -338,7 +338,7 @@
         { "name": "Barbell Bicep Curl", "freq": "3 x 15" }
       ],
       "Thursday": [
-        { "name": "Arnold Dumbbell Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Arnold Dumbbell Press Pyramid", "freq": "5 x 8" },
         { "name": "Machine Shoulder Press", "freq": "3 x 10" },
         { "name": "Barbell Shrugs", "freq": "3 x 10" },
         { "name": "Barbell Miltary Press", "freq": "3 x 10" },
@@ -346,7 +346,7 @@
       ],
       "Friday": [
         { "name": "Treadmill HIIT", "freq": "15 min" },
-        { "name": "Machine Leg Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Machine Leg Press Pyramid", "freq": "5 x 8" },
         { "name": "Barbell Squat", "freq": "3 x 8" },
         { "name": "Hanging Leg Raise", "freq": "3 x 15" },
         { "name": "Plank", "freq": "3 x 1.5 min" }
@@ -447,7 +447,7 @@
         { "name": "Barbell Bench Press", "freq": "4 x 8" },
         { "name": "Barbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Barbell Decline Bench Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "4 x 8" },
+        { "name": "Dumbbell Tricep Extension", "freq": "4 x 8" },
         { "name": "Tricep Rope Pushdown", "freq": "3 x 10" }
       ],
       "Tuesday": [
@@ -577,7 +577,7 @@
         { "name": "Burpees", "freq": "3 x 10" },
         { "name": "Dumbbell Chest Flyes", "freq": "3 x 15" },
         { "name": "Dumbbell Side Lateral Raise", "freq": "3 x 15" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 15" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 15" }
       ],
       "Tuesday": [
         { "name": "Exercise Bike Medium Intensity", "freq": "15 min" },
@@ -614,7 +614,7 @@
         { "name": "Dumbbell Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Shoulder Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 10" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 10" }
       ],
       "Tuesday": [
         { "name": "Seated Cable Row", "freq": "3 x 10" },
@@ -628,7 +628,7 @@
         { "name": "Barbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Dumbbell Bench Press", "freq": "3 x 10" },
         { "name": "Machine Shoulder Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 10" }
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 10" }
       ],
       "Thursday": [
         { "name": "Seated Cable Row", "freq": "3 x 10" },
@@ -647,7 +647,7 @@
     },
     "4": {
       "Monday": [
-        { "name": "Dumbbell Bench Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Dumbbell Bench Press Pyramid", "freq": "5 x 8" },
         { "name": "Dumbbell Incline Bench Press", "freq": "5 x 5" },
         { "name": "Arnold Dumbbell Press", "freq": "3 x 12" },
         { "name": "Barbell Skullcrushers", "freq": "3 x 12" },
@@ -661,10 +661,10 @@
         { "name": "Barbell Bicep Curl", "freq": "3 x 15" }
       ],
       "Wednesday": [
-        { "name": "Barbell Bench Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Barbell Bench Press Pyramid", "freq": "5 x 8" },
         { "name": "Dumbbell Incline Bench Press", "freq": "5 x 5" },
         { "name": "Arnold Dumbbell Press", "freq": "3 x 12" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "3 x 8" },
+        { "name": "Dumbbell Tricep Extension", "freq": "3 x 8" },
         { "name": "Weighted Dips", "freq": "3 x 8" }
       ],
       "Thursday": [
@@ -676,7 +676,7 @@
       ],
       "Friday": [
         { "name": "Treadmill HIIT", "freq": "15 min" },
-        { "name": "Machine Leg Press Pyramid Sets", "freq": "5 x 8" },
+        { "name": "Machine Leg Press Pyramid", "freq": "5 x 8" },
         { "name": "Barbell Squat", "freq": "3 x 8" },
         { "name": "Hanging Leg Raise", "freq": "3 x 15" },
         { "name": "Plank", "freq": "3 x 1.5 min" }
@@ -798,7 +798,7 @@
         { "name": "Barbell Bench Press", "freq": "4 x 8" },
         { "name": "Barbell Incline Bench Press", "freq": "3 x 10" },
         { "name": "Barbell Miltary Press", "freq": "3 x 10" },
-        { "name": "Dumbbell Overhead Tricep Extension", "freq": "4 x 8" },
+        { "name": "Dumbbell Tricep Extension", "freq": "4 x 8" },
         { "name": "Tricep Rope Pushdown", "freq": "3 x 10" }
       ],
       "Tuesday": [
@@ -947,7 +947,7 @@
       "Friday": [
         { "name": "Treadmill Medium Intensity", "freq": "15 min" },
         { "name": "Goblet Squat", "freq": "3 x 15" },
-        { "name": "Dumbell Reverse Lunge", "freq": "3 x 12" },
+        { "name": "Dumbbell Reverse Lunge", "freq": "3 x 12" },
         { "name": "Squat Jumps", "freq": "3 x 12" },
         { "name": "Ab Scissor", "freq": "3 x 10" }
       ]
@@ -1509,7 +1509,7 @@
       "Friday": [
         { "name": "Treadmill Medium Intensity", "freq": "15 min" },
         { "name": "Goblet Squat", "freq": "3 x 15" },
-        { "name": "Dumbell Reverse Lunge", "freq": "3 x 12" },
+        { "name": "Dumbbell Reverse Lunge", "freq": "3 x 12" },
         { "name": "Squat Jumps", "freq": "3 x 12" },
         { "name": "Ab Scissor", "freq": "3 x 10" }
       ]

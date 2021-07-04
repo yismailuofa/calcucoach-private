@@ -52,10 +52,10 @@ export default function FaqText() {
         general estimate is that you can see results within 3 months.
       </div>
       <br />
-      Q: What are Pyramid Sets?:
+      Q: What is Pyramid?:
       <br />
       <div style={{ fontSize: "2.5vh" }}>
-        A: Pyramid sets are a style of workout where you ramp to your max and then ramp down
+        A: Pyramid is a style of workout where you ramp to your max and then ramp down
     similar to a pyramid. If you have 5 x 5 as your frequency, you will build to your max
     weight in 2 sets, do your max for 1 set, and turn down the weight for the last two sets.
       </div>
