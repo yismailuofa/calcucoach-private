@@ -5,6 +5,7 @@ import GenderText from "./GenderText";
 import WorkoutStyles from "./WorkoutStyles";
 import WorkoutInfo from "./WorkoutInfo";
 import WorkoutDays from "./WorkoutDays";
+import LoadingScreen from "./LoadingScreen";
 import WorkoutDisplay from "./WorkoutDisplay";
 import { Component } from "react";
 
@@ -62,6 +63,12 @@ export default class Jumbotron extends Component {
     });
   };
 
+  prevStepDouble = (e) => {
+    this.setState({
+      step: this.state.step - 2,
+    });
+  };
+  
   render() {
     return (
       <div
@@ -112,8 +119,9 @@ export default class Jumbotron extends Component {
           step={this.state.step}
           isFaq={this.props.isFaq}
         />
+        <LoadingScreen step={this.state.step} nextStep={this.nextStep} />
         <WorkoutDisplay
-          prevStep={this.prevStep}
+          prevStep={this.prevStepDouble}
           step={this.state.step}
           isFaq={this.props.isFaq}
           gender={this.state.gender}
